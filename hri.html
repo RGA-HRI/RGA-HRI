@@ -1,326 +1,607 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-   <title>Inverse Problems at IHP</title>
-   <link type="text/css" rel="stylesheet" href="sss/screen.css" media="screen" />
-   <link type="text/css" rel="stylesheet" href="sss/ie.css" media="screen" />
-   <style type="text/css">
-      img.floatLEFT { float: left; margin: 16px }
-   </style>
-   <script type="text/javascript" src="sss/scripts.js"></script>
-</head>
-<script>
-function toggle(id){
-if (document.getElementById){
-hide = document.getElementById(id);
-if (hide.style.display == "none"){
-hide.style.display = "";
-} else {
-hide.style.display = "none";
-}
-}
-}
-</script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research web-page (Tuhin Ghosh)</title>
 
-<body class="home">
-
-<div id="outerwrapper">
-<div id="wrapper">
-<div id="iphead">
-  <h1></h1>
-  <div id="iphead_var"></div>
-</div>
-<div id="main">
-    <div id="col1">
-    <ul>
-    	<li id="home"><a href="ip2015.html">Home</a></li>
-	<li id="home"><a href="ipscient.html">Scientific Issues</a></li>
-	<li id="home"><a href="diaryIHP.html">Schedule</a></li>
-	<li id="home"><a href="ipcirm.html">CIRM preschool</a></li>
-    	<li id="home"><a href="ipconferences/ipconf.html">Conferences</a>
-	<li id="home"><a href="ipcourses/ipcourses.html">Courses</a></li>
-	<li id="home"><a href="ipsemin.html">Seminar</a></li>
-	<li id><a href="IPPoster2015.pdf">Poster</a></li>
-	<li id><a href="http://www.ihp.fr/en/CEB/T2-2015">Registration</a></li>
-    </ul>
-    </div>    
+  <style>
     
-    <div id="col2">
-    <div id="general">
-       <h2>Summer preschool on Inverse Problems at CIRM</h2>
-       <b>April 13th to 20th</b>
-       <span style="float:right">
-            <a href="http://www.cirm.univ-mrs.fr/index.html/?lang=fr">
-                 <img src="sss/i/logo_CIRM.jpg" title="CIRM" align="/left">
-            </a>
-       </span>
-     <br>
-     <br>
-     The CIRM school will introduce the main problems and questions in the field and will be intended to a general audience, in particular PhD students and postdocs. There will be 3 mini-courses follows and one to two additional expository talks per day. 
-     
-       <h3> Scientific Committee</h3>
-           <ul>  
-            <li> Victor Guillemin (MIT) </li>
-            <li> Hiroshi Isozaki (Tsukuba University) </li>
-            <li> Gilles Lebeau (Universit&eacute; de Nice Sophia Antipolis) </li>
-            <li> Gabriel Paternain (Cambridge University) </li>
-            <li> Steve Zelditch (Northwestern University) </li>
-            <li> Gunther Uhlmann (University of Washington) </li>
-         </ul>
-       <h3>Minicourses</h3>
-           <p align="center">
-           <IMG SRC="ipcirmdoc/IMG_2330.JPG" ALT="Mikko Salo" WIDTH=244 HEIGHT=244>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <IMG SRC="ipcirmdoc/IMG_2378.JPG" ALT="Leo Tzou" WIDTH=326 HEIGHT=244>
-           </p>
-           <p>
-           <ul>
-                <li>Alberto Ruiz (Universidad Aut&oacute;noma de Madrid) on inverse scattering and the Calder&oacute;n problem
-                      <br> <a href="ipcirmdoc/RuizLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/RuizLec2.pdf">Lecture 2</a>  <br> <a href="https://www.uam.es/gruposinv/inversos/publicaciones/Inverseproblems.pdf">Link</a> to written notes </li>
-                <li>Mikko Salo (University of Jyv&auml;skyl&auml;) on the geodesic X-ray transform <br>
-                 <i>The geodesic ray transform</i><br>
-                <a onClick='toggle("cache1");'>Abstract</a> 
-   <div id='cache1' style="display: none">
-                This course will focus on the geodesic X-ray transform and related geometric inverse problems. The Euclidean X-ray transform, which encodes the integrals of a function over straight lines, is a classical topic (already going back to J. Radon in 1917) and forms the basis of imaging methods such as X-ray computed tomography. The geodesic X-ray transform encodes the integrals of a function over more general families of curves, such as the geodesics of a Riemannian metric. It has applications in seismic imaging and in geometric inverse problems including the boundary rigidity problem, the inverse conductivity problem posed by Calder n, and inverse spectral problems.
 
-There have been several advances in the study of geodesic X-ray transforms and geometric inverse problems recently, and this course will discuss selected results together with the necessary background. After an overview of known results and applications, we will consider the X-ray transform for Euclidean space, for rotationally symmetric sound speeds, and finally for manifolds that may not have any symmetries.
-</div>
-</li>
-                <li>Steve Zelditch (Northwestern University) on spectral rigidity for analytic domains <br>
-                <i>The inverse spectral problem</i><br>
-                <a onClick='toggle("cache2");'>Abstract</a> 
-   <div id='cache2' style="display: none">
-My mini-course consists of 4 lectures on the
-inverse spectral problem: what properties of a Riemannian
-manifold (possibly with boundary) can be recovered from
-the spectrum of its Laplacian?  The first lecture reviewed
-some of the main results over the last 50 years, and introduced
-the wave invariants and the Poisson formula for the wave trace.
-The second lecture focussed on the Kac problem, Can one
-determine a bounded domain in the plane from its Dirichlet or
-Neumann spectrum? I presented a result of Hezari-Zelditch
-that ellipses are spectrally rigid among smooth domains with
-the symmetries of the ellipse. In the third lecture I went into
-more detail on billiard dynamics for convex plane domains,
-and particularly for the ellipse. I then presented the wave
-trace from the Balian-Bloch viewpoint of layer potentials as
-semi-classical Fourier integral operators quantizing the billiard 
-flow. In the fourth and final lecture I presented a new result
-of Avila-Kaloshin-de Simoi that convex domains C1 close to
-an ellipse of small eccentricity and with rationally integrable billiards
-are ellipses. The Balian-Bloch formula shows if a smooth domain
-has the same eigenvalues as an ellipse of small eccentricity, then
-certain oscillatory integrals over the boundary must agree with those
-of the ellipse.  If the number of bounces is sufficiently large, the
-oscillatory integral is of Melrose-Marvizi type. If the domain is analytic
-then for sufficiently large k, the k-bounce phase must be constant
-and the periodic orbits come in smooth 1-parameter families. It
-appears that the same is true for all k \geq 3, but this is a tricky open
-question. As explained at the end, it would imply that an analytic
-domain C1 close to an ellipse of small eccentricity and isospectral
-to the ellipse must be the ellipse. This result is in some ways stronger
-than the Hezari-Zelditch result because no deformation is assumed.</div>
-<br>
-                <a href="ipcirmdoc/ZelditchLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/ZelditchLec2.pdf">Lecture 2</a> </li>
-           </ul>
-           <h3>Survey talks</h3>
-           <p>
-           We plan to have 5 survey talks in addition to the mini courses. 
-           <ul>
-                <li>Lauri Oksanen (University College London) on the Boundary Control Method<br>
-                <i>On the Boundary Control method</i><br>
-                <a onClick='toggle("cache4");'>Abstract</a> 
-                <div id='cache4' style="display: none">
-This is a survey talk about the Boundary Control method. The method
-originates from the work by Belishev in 1987. He developed the method
-to solve the inverse boundary value problem for the acoustic wave
-equation with an isotropic sound speed. The method has proven to be
-very versatile and it has been applied to various inverse problems for
-hyperbolic partial differential equations. We review recent results
-based on the method and explain how a geometric version of method
-works in the case of the wave equation for the Laplace-Beltrami
-operator on a compact Riemannian manifold with boundary.
 
-Recent work reviewed includes:
+.rc_nav {
+  overflow: hidden;
+  background-color: #777a8a;
+  text-align: center;
+  
+  z-index: 6;
+}
 
-S. Liu and L.O. A Lipschitz stable reconstruction formula for
-the inverse problem for the wave equation. Trans. Amer. Math.
-Soc., to appear.
+.rc_nav a {
+ display: inline-block;
+ margin-right: -4px;  /* inline-block gap fix */
+ color: #fff;
+ padding: 22px 22px;
+ text-decoration: none;
+ font-family: Poppins;
+ font-size: 20px;
+ -webkit-transition: background 0.3s linear;
+ -moz-transition: background 0.3s linear;
+ -ms-transition: background 0.3s linear;
+ -o-transition: background 0.3s linear;
+ transition: background 0.3s linear;
+ z-index: 9;
+}
 
-M. Lassas and L.O. Inverse problem for the Riemannian wave
-equation with Dirichlet data and Neumann data on disjoint sets.
-Duke Math. J. 163 (2014), no. 6, 1071-1103.
-</div>
-<li>
-                <li>Samuli Siltanen (University of Helsinki) on reconstruction methods<br>
-                <i>Reconstruction methods for ill-posed inverse problems</i><br>
-                <a onClick='toggle("cache5");'>Abstract</a> 
-                <div id='cache5' style="display: none">
-Inverse problems are about interpreting indirect measurements. They arise as the opposite of direct problems in the following sense. A direct problem has the form 'From object to data,' and an inverse problem has the form 'From data to object.' The most interesting inverse problems are ill-posed. This means that at least one (and often all three) of Hadamard's conditions fail. The conditions are: (1) given data, there should some object producing that data; (2) the object in the previous condition should be unique; (3) the object should depend continuously on the data. In practical inverse problems one needs to overcome ill-posedness using regularization, which gives noise-robust reconstruction methods. In this talk, regularized reconstruction is discussed for both linear and nonlinear forward maps. The prototype examples are X-ray tomography (linear inverse problem) and electrical impedance tomography (nonlinear inverse problem). </div>
-                <a href="ipcirmdoc/Siltanen.pdf">Slides</a>
-                </li>
-                <li>Gunther Uhlmann (University of Washington) on Boundary Rigidity<br>
-                <i>On Boundary Rigidity</i><br>
-                <a onClick='toggle("cache6");'>Abstract</a> 
-                <div id='cache6' style="display: none">
-We will consider the inverse problem of determining the sound speed or index of refraction of a medium by measuring the travel
-times of waves going through the medium. This problem arise in several applications in geophysics and medical imaging among others. 
+.rc_nav a:hover {
+  background-color: #575b69;
+  color: #bdfe0e2;
+}
 
-The problem can be recast as a geometric problem: Can one determine a
-Riemannian metric of a Riemannian metric with boundary by measuring
-the distance function between boundary points? This is the boundary
-rigidity problem. We will also consider the problem of determining
-the metric from the scattering relation, the so-called lens rigidity
-problem. The linearization of these problems involve the integration
-of a tensor along geodesics, similar to the X-ray transform.
+.rc_nav .icon {
+  display: none;
+}
 
-We will also describe some recent results, join with Plamen Stefanov
-and Andras Vasy, on the partial data case, where you are making
-measurements on a subset of the boundary.</div>
-                <a href="ipcirmdoc/Uhlmann.pdf">Slides</a>
-</li>
-                <li>Leo Tzou (Stockholm University) on Inverse problems with partial data in dimension two</li>
-                <li>Ting Zhou (MIT) on Cloaking and Invisibility issues<br>
-                <i>On approximate transformation-optics based electromagnetic invisibility</i><br>
-                <a href="ipcirmdoc/ZhouAbstract.pdf">Abstract</a>
-                <a href="ipcirmdoc/Zhou.pdf">Slides</a>
-</li>
-           </ul>
 
-       <h3>Schedule</h3>
-              <a href=CIRMSchedule.html>Schedule</a> of the conference
-           <p> 
-       <h3>Participants</h3>
-           <p> 
-           <ul>
-<li>ALBERTI Giovanni S.</li>  
 
-<li>ANDERSSON Joel</li>  
 
-<li>ARNAIZ V&iacute;ctor</li>  
+@media screen and (max-width: 820px) {
+  .rc_nav a {display: none;}
+  .rc_nav a.icon {
+    float: right;
+    display: block;
+    width: 60px;
+  }
+}
 
-<li>BELLIS C&eacute;dric</li>  
+@media screen and (max-width: 820px) {
+  .rc_nav.responsive 
+  {
+    position: relative; 
+  }
+  .rc_nav.responsive .icon {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  .rc_nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
 
-<li>BOMAN Jan</li>  
+}
+  </style>
+</head>
+<body>
+  
+    
 
-<li>BOUGHAMMOURA Ahmed</li>  
-
-<li>BUFFE R&eacute;mi</li>  
-
-<li>CHANG Yifan</li>  
-
-<li>DAUDE Thierry</li>  
-
-<li>DESAI Naeem</li>  
-
-<li>DOS SANTOS FERREIRA David</li>  
-
-<li>FAIFMAN Dmitry</li>  
-
-<li>GOBIN Damien</li>  
-
-<li>GUILLARMOU Colin</li>  
-
-<li>HABERMAN Boaz</li>  
-
-<li>HADFIELD Charles</li>  
-
-<li>HEZARI Hamid</li>  
-
-<li>HUANG Xia</li>  
-
-<li>IMED Feki</li>  
-
-<li>INGREMEAU Maxime</li>  
-
-<li>JIM&Eacute;NEZ-P&Eacute;REZ Hugo</li>  
-
-<li>KIAN Yavar</li>  
-
-<li>LAURENT Camille</li>  
-
-<li>LE ROUSSEAU J&eacute;r&ocirc;me</li>  
-
-<li>LIDMAN BERGQVIST Linus</li>  
-
-<li>MACIA Fabricio</li>  
-
-<li>MAZZUCCHELLI Marco</li>  
-
-<li>MIREN Zubeldia</li>  
-
-<li>OKSANEN Lauri</li>  
-
-<li>OLIVE Marc</li>  
-
-<li>OWIS Ashraf</li>  
-
-<li>POHJOLA Valter</li>  
-
-<li>PONOMAREV Dmitry</li>  
-
-<li>POTENCIANO MACHADO Leyter</li>  
-
-<li>PRUCKNER Raphael</li>  
-
-<li>RACITI Fabio</li>  
-
-<li>RAILO Jesse</li>  
-
-<li>RIVIERE Gabriel</li>  
-
-<li>ROBBIANO Luc</li>  
-
-<li>RUIZ alberto</li>  
-
-<li>SAKSALA Teemu</li>  
-
-<li>SALO Mikko</li>  
-
-<li>SANTACESARIA Matteo</li>  
-
-<li>SILTANEN Samuli</li>  
-
-<li>SOCCORSI Eric</li>  
-
-<li>SOLER POLO Diego</li>  
-
-<li>TAEUFER Matthias</li>  
-
-<li>TAUTENHAHN Martin</li>  
-
-<li>TERZIOGLU Fatma</li>  
-
-<li>TZOU Leo</li>  
-
-<li>UHLMANN Gunther</li>  
-
-<li>WALLEZ Thomas</li>  
-
-<li>ZELDITCH Steve</li>  
-
-<li>ZHOU Ting </li>      
-
-</ul>
-</p>
-   </div>
-   </div>                           
-<div id="footer">
-    <p><span class="left"> <script type="text/javascript" language="javascript">
-<!--
-var f7="";for(var t5=0;t5<474;t5++)f7+=String.fromCharCode(("3}/<%LY>>W#,/D3}/<~QYLW~QXOQMW~QGGE%LGYo1/&+$J#/,*_%}/_,!\"DD>m#HfOYLMw$hhfVUTwV\\ZLV]LY$h[OPZtwOYLM$xCmTHPwS[V!mtYLWSHJLnuwuNrh5htZ\\IZ[YnwooqmK|KZ|||MmtYLWSHJLnu|uNrhhoqh\'hqmTH[44O4mtYLWSHJLnu4uNrh+htZ\\IZ[Ynwooq:[YPUNtMYVT*OHY*VKLnz|oqmJHUYHHZmtYLWSHJLnuHuNrhhoqBhthDBvDq:[YPUNtMYVT*OHY*VKLn|~qyzrv_}xxoqmxCmhfVUTV\\ZLV\\[$h[OPZtOYLM$xCmxCmh%KKZMlivvvv|z@\"TH[Olivvvvvz|\"JUY@Zlivvvvvz|\"MY#uH%mtYLWSHJLnu@uNrh@htZ\\IZ[Ynwoo>J %}/_,!\"]1D~QEIDMMMIRUEGMNNIQUEADMMNIMSEGL5NLEW\"3})D%LE".charCodeAt(t5)-(26+2)+0x3f)%(95)+32);document.write(eval(f7))
-//-->
-</script>
-</span>
-    Last Updated 04/04/15 </p>
-</div>
-
-</div>
-</div>
-</div>
-
+	<div class="rc_nav" id="centered_nav">
+    <a href="https://www.hri.res.in/~mathgradp/mathprog.html" title="Math Prog. at HRI">Math Prog. at HRI</a>
+	<!--a href="https://www.hri.res.in/"target="Harish-Chandra Research Institute">Harish-Chandra Research Institute</a> --->
+	<a href="https://www.hri.res.in/~tuhinghosh/" title="Research web-page (Tuhin Ghosh)">Research web-page (Tuhin Ghosh)</a>
+    <a href="https://rga-hri.github.io/AT/arg.html"> Course Activity in Analysis at HRI </a>
+    <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+   
+    
+    <script>
+        function myFunction() {
+    var x = document.getElementById("centered_nav");
+    if (x.className === "rc_nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "rc_nav";
+    }
+}
+      
+      
+    </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research web-page (Tuhin Ghosh)</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+	
+	
+<br>
+<center>
+The page is primarily for the Courseworks, Research related activities in Analysis at HRI.
+</center>
+ 
+
+<br><hr>
+
+	
+<h3>  </h3>
+<div id='T'>
+<ul>
+<li><a HREF='#C'> Research Interests:  </a>
+
+</ul>
+
+
+<div id="C">
+<ul>
+
+<li> Topics in Analysis and PDEs
+	
+<ul>
+								     
+<li>
+<U>Inverse Problems</U> 
+	
+<br>
+<ul>
+Mathematical inverse problems refer to a class of problems where the goal is to determine the unknown causes or parameters of a system based on observed data or measurements. A typical inverse problem is to recover the coefficients of a PDE, i.e. physical properties like conductivity, medium propagation, internal density distribution etc. from the boundary or exterior measurements.
+</ul>
+<br>
+</li>
+<br>
+<li>
+<U>Homogenization</U> 
+
+<br>
+<ul>
+Homogenization processes provide a macro scale approximation to a problem with heterogeneities at micro scale by suitably averaging out small scales and incorporating their effects on large scales. These effects are quantified by the so-called homogenized coefficients. A common thread is often projected in order to come up with their optimal bounds, spectral characterization etc. 
+</ul>
+</li>
+
+ 
+</ul>
+</li>
+
+
+
+	
+<ul>	
+° Calculus and Geometry of Curves and Surfaces.
+</ul>
+	
+</li>
+</ul>
+
+<ul>
+° Instructor-  Dr. Tuhin Ghosh.
+</ul>
+	
+<ul>
+°°  
+	<a href="https://www.dropbox.com/scl/fi/hlz22uw4h9wxr2vltc95h/Differential_Geometry-I.pdf?rlkey=3sskrqw8me8cymnoa1v7s1p99&st=c3497nxp&dl=0">Lecture notes</a> <-->  <a href="https://www.dropbox.com/scl/fi/tkqp8ma6byoiq37hhiskc/Differential_Geometry-A1.pdf?rlkey=gn1ei44g85lavgnbzrnakob9d&st=f9jj2psy&dl=0">Assignments</a>  
+</ul>
+
+
+
+</div>
+</div>
+
+	
+	
+<h3> Graduate Courseworks </h3>
+<div id='T'>
+<ul>
+<li><a HREF='#C'>Year I  (Compulsory)</a>
+<li><a HREF='#E'>Year II (Electives)</a>
+</ul>
+
+
+<div id="C">
+<ul>
+
+<li> Analysis I 
+	
+
+<ul>	
+° Measure Theory, Fourier Analysis, Calculus on Normed Linear Spaces.
+</ul>
+	
+</li>
+
+<br>
+	
+<li> Analysis II 
+	
+
+<ul>	
+°  Topological Vector Spaces and Functional Analysis, Spectral Theory, Distribution (and Fourier) Theory.
+</ul>
+
+</li>
+
+</ul>
+
+</li>	
+
+
+<br>
+
+<li> Analysis I 
+
+<ul>
+° Instructor-  Dr. Amrita Ghosh.
+</ul>
+<ul>
+°°  
+	<a href="https://www.dropbox.com/scl/fi/xkml2g695kx7cnbi3wglm/Analysis-I.pdf?rlkey=76sqzhaweyq6fr354ii6ejb42&st=towa2osf&dl=0">Lecture notes</a>
+</ul>
+
+
+
+<li> Analysis II 
+
+<ul>
+° Instructor-  Dr. Tuhin Ghosh.
+</ul>
+<ul>
+°° 
+	<a href="https://www.dropbox.com/scl/fi/97e9z96ak5upc81m35el5/Analysis_II_Functional_Analysis.pdf?rlkey=2b6dzhpnee2aaztf1jiwlc2ad&st=q08txog0&dl=0">Lecture notes</a>
+</ul>
+</li>	
+
+</div>
+
+<div id="E">	
+<ul>
+
+<li>
+Analysis III 
+</li>
+
+<ul>	
+° Distributions, Fundamental solutions, Sobolev Spaces. 
+</ul>
+
+<ul>
+° L^2 theory of Linear Elliptic equations, Stability estimates, Regularity results.
+</ul>
+
+<ul>
+° Linear Evolution equations, Cauchy problem,  Galerkin's approach, Semigroup Theory.
+</ul>
+
+</ul>
+</li>
+
+<li> Analysis III_A 
+
+<ul>
+° Instructor-  Dr. Tuhin Ghosh.
+</ul>
+<ul>
+°° 
+	<a href="https://www.dropbox.com/scl/fi/s19kvrn7jhdk3bniu0psi/Analysis_III.pdf?rlkey=kpdsb2er9o25fxwvlzc7j5mdw&st=kl6d0idy&dl=0">Lecture notes</a>
+</ul>
+</li>
+
+<li> Analysis III_B
+
+<ul>
+° Instructor(s)-  Dr. Tuhin Ghosh, Dr. Saumyajit Das, Dr. Tanvi
+</ul>
+<ul>
+°° 
+	<a href="https://www.dropbox.com/scl/fi/owyl8c8vef59e7vtquabs/Analysis_IV.pdf?rlkey=f7dzv1cpjf2dpwobtns5vykar&st=wgretyoo&dl=0">Lecture notes</a>
+</ul>
+</li>
+</div>
+</div>
+<br><hr>
+
+	<!--
+	
+<h3>Research </h3>
+<div id='T'>
+<ul>
+<li><a HREF='#RI'>Research Interests</a>
+<li><a HREF='#RP2'>Recent Preprints</a>
+<li><a HREF='#RP1'>Some Project Slides</a>
+</ul>
+<div id="RI">
+<ul>
+<li> Topics in Analysis and PDEs
+<br><hr>	
+<ul>
+								     
+<li>
+<U>Inverse Problems</U> 
+	
+<br>
+<ul>
+Mathematical inverse problems refer to a class of problems where the goal is to determine the unknown causes or parameters of a system based on observed data or measurements. A typical inverse problem is to recover the coefficients of a PDE, i.e. physical properties like conductivity, medium propagation, internal density distribution etc. from the boundary or exterior measurements.
+</ul>
+<br>
+<ul>
+°Some familiar Topics:
+Carleman estimates, Unique Continuation, Calderon problem, Scattering problem, Gelfand problem.
+</ul>
+<br>
+<ul>
+°References:
+</ul>
+<br>
+<ul>
+1. Isakov, Victor, Inverse problems for Partial Differential Equations. Springer-Verlag.
+</ul>
+
+<ul>
+2. Eskin, Gregory, Lectures on Linear Partial Differential Equations. American Mathematical Society. 
+</ul>
+
+<ul>
+3. Katchalov, Alexander; Kurylev, Yaroslav; Lassas, Matti; Inverse Boundary Spectral Problems.  Chapman & Hall/CRC.
+</ul>
+
+</li>
+
+<br>
+<li>
+<U>Introduction to the Mathematical Fluid Dynamics</U>
+<br>
+<ul>
+Mathematical fluid dynamics deals with the study of fluid flow using mathematical models and techniques. It provides a theoretical framework to understand and analyze the behavior of fluids in various physical systems. This involves PDEs (for example Navier-Stokes equation) which are usually derived from the principles of conservation of mass, momentum, and energy.
+</ul>
+<br>
+<ul>
+°Some familar Topics: Boundary layers, Instability analysis, PDEs as gradient flows, Fluid-structure Interaction problem, Thin film flows.
+</ul>
+<br>
+<ul>
+°References:
+</ul>
+<br>
+<ul>
+1. Galdi, G. P.,  An introduction to the mathematical theory of the Navier-Stokes equations. Steady-state problems. Springer.
+</ul>
+<ul>
+2. Temam, Roger, Navier-Stokes equations. North-Holland Publishing House.  
+</ul>
+<ul>
+3. Ockendon, H.; Ockendon, J. R., Viscous Flow. Cambridge University Press. 
+</ul>
+
+</li>
+ 
+<br>
+<li>
+<U>Homogenization</U> 
+
+<br>
+<ul>
+Homogenization processes provide a macro scale approximation to a problem with heterogeneities at micro scale by suitably averaging out small scales and incorporating their effects on large scales. These effects are quantified by the so-called homogenized coefficients. A common thread is often projected in order to come up with their optimal bounds, spectral characterization etc. 
+</ul>
+	
+<br>
+<ul>
+°Some familiar Topics: Asymptotic Analysis, H-limit, Compensated Compactness, H-Measure, Relative homogenization. 
+</ul>
+
+<br>
+<ul>
+°References:
+</ul>
+
+<br>
+<ul>
+1. Tartar, Luc, The General Theory of Homogenization. Springer-Verlag. 
+</ul>
+	
+<ul>
+2. Allaire, Gregoire, Shape Optimization by the Homogenization Method. Springer-Verlag.
+</ul>
+</li>
+</ul>
+</li>
+</div>
+
+<div id="RP2">
+<ul>
+<a href="https://arxiv.org/pdf/2509.12685">Inverse Scattering for the Fractional Schrödinger equation</a>
+</ul>
+<ul>
+<a href="https://arxiv.org/pdf/2508.06998">On Fractional Borg-Levinson Problem</a>
+</ul>	
+<ul>
+<a href="https://arxiv.org/pdf/2502.04717">Adaptive Modified Weak Galerkin Method for Obstacle Problem.</a>
+</ul>
+<ul>
+<a href="https://arxiv.org/pdf/2504.20517">Boundary Control and Calderón type Inverse Problems in Non-local heat equation.</a>
+</ul>
+<ul>
+<a href="https://arxiv.org/pdf/2505.12255">Anisotropic Calderón Problem for a Non-Local Second Order Elliptic Operator.</a>
+</ul>
+<ul>
+<a href="https://arxiv.org/pdf/2502.00710">Fractional anisotropic Calderón problem with external data.</a>
+</ul>
+<ul>
+<a href="https://arxiv.org/pdf/2506.12535">Anisotropic Calderón problem of a nearly Laplace-Beltrami operator of order 2+</a>
+</ul>	
+</div>
+
+<div id="RP1">
+<ul>
+<a href="https://drive.google.com/file/d/1-379xZcQZfee_jzyV-eUPUcXzZ2cKVbc/view?usp=sharing">On (nonlocal) Calderon Problem.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/1Gk-w0T6oLZto8txwFRBaOTu-9YbrjpM4/view?usp=drive_link">The Malgrange-Ehrenpreis Theorem.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/15wMsrHhcRQQApvHk7xdVpAX0TmeFmmnc/view?usp=drive_link">Long time behaviour of evolution equations using Entropy method.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/1HpEiVVWmxCrJmwgiNQ1pntj-89iOHXGZ/view?usp=drive_link">On the Homogenization of Maxwell Equations.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/17bipG3V19bnXN9CbQAnPBHQ3BHzt_tj3/view?usp=drive_link">On Inverse Problems for Dynamical Sysytem.</a>
+</ul>
+</div>
+
+</div>
+<br><hr>
+-->
+	
+<h3> Activities </h3>
+<div id='T'>
+<ul>
+<li><a HREF='#S'>Workshops </a>
+<li><a HREF='#L'>Miscellaneous Links</a>
+<li><a HREF='#RI'>Focus Topics</a>
+<li><a HREF='#RP1'>Some Project Slides</a>
+</ul>
+
+
+<div id="S">
+<ul>
+<li><a href="https://rga-hri.github.io/AT/ist.html"target="Seminars on Harmonic Analysis and PDEs"> Seminars on Harmonic Analysis and PDEs</a></li>
+</ul>
+<ul>
+<li><a href="https://www.hri.res.in/~analysis/2024/Welcome.html"target="Workshop on Harmonic Analysis: Fourier Multipliers and Related Topics"> Workshop on Harmonic Analysis: Fourier Multipliers and Related Topics </a></li>
+</ul>
+<ul>
+<li><a href="https://www.hri.res.in/~spim/"target="SPIM"> SPIM </a> & <a href="https://www.dropbox.com/scl/fi/ehi0squticitu1dur7cce/DE.pdf?rlkey=jvseculg6ht8rt6qjha86z2xm&st=h2c7puhn&dl=0"target="ODE/PDE Week"> ODE/PDE Week </a> </li>
+</ul> 
+</div>
+
+<div id="L">
+<ul>
+<li><a href="https://www.hri.res.in/~libweb/">HRI Library</a>.</li>
+</ul>
+<ul>
+<li><a href="https://sites.uci.edu/inverse/">Inverse Problems Talks (running online seminar at UC, Irvine)</a>.</li>
+</ul>	
+</div>
+
+<div id="RI">
+<ul>
+<li> Topics in Analysis and PDEs
+<br><hr>	
+<ul>
+								     
+<li>
+<U>Inverse Problems</U> 
+	
+<br>
+<ul>
+Mathematical inverse problems refer to a class of problems where the goal is to determine the unknown causes or parameters of a system based on observed data or measurements. A typical inverse problem is to recover the coefficients of a PDE, i.e. physical properties like conductivity, medium propagation, internal density distribution etc. from the boundary or exterior measurements.
+</ul>
+<br>
+<ul>
+°Some familiar Topics:
+Carleman estimates, Unique Continuation, Calderon problem, Scattering problem, Gelfand problem.
+</ul>
+<br>
+<ul>
+°References:
+</ul>
+<br>
+<ul>
+1. Isakov, Victor, Inverse problems for Partial Differential Equations. Springer-Verlag.
+</ul>
+
+<ul>
+2. Eskin, Gregory, Lectures on Linear Partial Differential Equations. American Mathematical Society. 
+</ul>
+
+<ul>
+3. Katchalov, Alexander; Kurylev, Yaroslav; Lassas, Matti; Inverse Boundary Spectral Problems.  Chapman & Hall/CRC.
+</ul>
+
+</li>
+
+<br>
+<li>
+<U>Introduction to the Mathematical Fluid Dynamics</U>
+<br>
+<ul>
+Mathematical fluid dynamics deals with the study of fluid flow using mathematical models and techniques. It provides a theoretical framework to understand and analyze the behavior of fluids in various physical systems. This involves PDEs (for example Navier-Stokes equation) which are usually derived from the principles of conservation of mass, momentum, and energy.
+</ul>
+<br>
+<ul>
+°Some familar Topics: Boundary layers, Instability analysis, PDEs as gradient flows, Fluid-structure Interaction problem, Thin film flows.
+</ul>
+<br>
+<ul>
+°References:
+</ul>
+<br>
+<ul>
+1. Galdi, G. P.,  An introduction to the mathematical theory of the Navier-Stokes equations. Steady-state problems. Springer.
+</ul>
+<ul>
+2. Temam, Roger, Navier-Stokes equations. North-Holland Publishing House.  
+</ul>
+<ul>
+3. Ockendon, H.; Ockendon, J. R., Viscous Flow. Cambridge University Press. 
+</ul>
+
+</li>
+ 
+<br>
+<li>
+<U>Homogenization</U> 
+
+<br>
+<ul>
+Homogenization processes provide a macro scale approximation to a problem with heterogeneities at micro scale by suitably averaging out small scales and incorporating their effects on large scales. These effects are quantified by the so-called homogenized coefficients. A common thread is often projected in order to come up with their optimal bounds, spectral characterization etc. 
+</ul>
+	
+<br>
+<ul>
+°Some familiar Topics: Asymptotic Analysis, H-limit, Compensated Compactness, H-Measure, Relative homogenization. 
+</ul>
+
+<br>
+<ul>
+°References:
+</ul>
+
+<br>
+<ul>
+1. Tartar, Luc, The General Theory of Homogenization. Springer-Verlag. 
+</ul>
+	
+<ul>
+2. Allaire, Gregoire, Shape Optimization by the Homogenization Method. Springer-Verlag.
+</ul>
+</li>
+</ul>
+</li>
+</div>
+	
+<div id="RP1">
+<ul>
+<a href="https://drive.google.com/file/d/1-379xZcQZfee_jzyV-eUPUcXzZ2cKVbc/view?usp=sharing">On (nonlocal) Calderon Problem.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/1Gk-w0T6oLZto8txwFRBaOTu-9YbrjpM4/view?usp=drive_link">The Malgrange-Ehrenpreis Theorem.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/15wMsrHhcRQQApvHk7xdVpAX0TmeFmmnc/view?usp=drive_link">Long time behaviour of evolution equations using Entropy method.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/1HpEiVVWmxCrJmwgiNQ1pntj-89iOHXGZ/view?usp=drive_link">On the Homogenization of Maxwell Equations.</a>
+</ul>
+<ul>
+<a href="https://drive.google.com/file/d/17bipG3V19bnXN9CbQAnPBHQ3BHzt_tj3/view?usp=drive_link">On Inverse Problems for Dynamical Sysytem.</a>
+</ul>
+</div>
+	
+</div>
+<br><hr>
+<!--
+e-mail <a HREF='mailto:@hri.res.in'>analysis@hri.res.in</a>.
+	-->
+</body>
+</html>
