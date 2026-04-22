@@ -1,0 +1,136 @@
+/*
+ * Author: Sourav Das
+ * Dated: 25-06-2023
+ * Supported: HTML5
+ */
+
+body {
+    background: #F0F0E8;
+    font-family: Verdana;
+    color: rgb(0, 51, 102);
+}
+img {
+    padding-top: 25px;
+    padding-right: 30px;
+    float: right;
+}
+
+#main-container {
+    width:76%;
+    margin-left:12%;
+    margin-top:0.6%;
+    background:#FFF;
+    height: 1000px;    
+}
+
+#left-side {
+    width: 17.5%;
+    float: left;
+    background-color: #003366;
+    height: 100%;
+}
+#right-side {
+    width: 82.5%;
+    float: left;
+    height: auto;
+}
+#footer {
+    height: 16px;
+    background: inherit;
+    text-align: center;
+    font-size: .8rem;
+    padding-top: 16px;
+}
+
+#menus {
+    margin-top: 90%;
+}
+.triangle-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.triangle-list li {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Verdana;
+}
+.triangle-list li:before {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0px;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid white;
+}
+
+
+.header-section {
+    height: 240px;
+}
+
+.left-part {
+    width:60%;
+    float: left;    
+}
+.text1 {
+    width: 310px;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.text2 {
+    width: 310px;
+    margin-top: 13%;
+    margin-left: 4%;
+    font-weight: bold;
+    font-family: Verdana;
+    color: rgb(0, 51, 102);
+}
+.text3 {
+    text-align: justify;
+    font-family: inherit;
+    padding-left: 19.5%;
+    padding-right: 5%;   
+    font-size: 13px;
+}
+.text4 {
+    font-family: inherit;
+    padding-left: 19.5%;
+    font-size: 12px;
+}
+
+.right-part {
+    width:40%;
+    float: left;
+}
+
+.alphabetical-list {
+    list-style-type: none;
+    counter-reset: item-counter;
+    padding-left: 0;    
+    margin-left: 21%;
+}
+
+.alphabetical-list li {
+    counter-increment: item-counter;
+    margin-bottom: 2px;
+}
+
+.alphabetical-list li:before {
+    content: counter(item-counter, upper-alpha) ". "; /* Set the counter style to uppercase alphabetical prefixes */
+}
+
+.unilist {
+    padding-top: 30px;
+    margin-left: 2%;
+    float: left;
+    margin-right: 6%;
+}
+  
