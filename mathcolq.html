@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mathematics Colloquiums
+</title>
+<script>
+function toggle(id){
+if (document.getElementById){
+hide = document.getElementById(id);
+if (hide.style.display == "none"){
+hide.style.display = "";
+} else {
+hide.style.display = "none";
+}
+}
+}
+</script>
+<style>
+        /* Minimalist CSS */
+        body {                
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 { font-weight: 300; font-size: 2.5em; margin-bottom: 0; }
+        h2 { font-weight: 300; color: #555; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        section { margin-bottom: 40px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .image-placeholder {
+            background-color: #f4f4f4;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            border: 1px solid #ddd;
+        }
+        .image-placeholder img { width: auto; height: auto; }
+
+        .talk-list { display: grid; gap: 18px; }
+        .talk-card { border: 1px solid #e7e7e7; border-radius: 14px; padding: 15px 18px; background: #fcfcfc; }
+        .talk-month { display: inline-block; font-size: 0.82em; letter-spacing: 0.08em; text-transform: uppercase; color: #666; margin-bottom: 8px; }
+        .talk-topic { font-size: 0.95em; color: #444; margin-bottom: 6px; }
+        .talk-card h3 { font-weight: 500; color: #222; margin: 0 0 12px; font-size: 1.15em; line-height: 1.35; }
+        .talk-meta { margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px 18px; }
+        .talk-meta div { display: grid; grid-template-columns: 92px 1fr; gap: 8px; }
+        .talk-meta dt { font-weight: 700; color: #444; }
+        .talk-meta dd { margin: 0; }
+        .abstract-toggle { margin-top: 14px; padding: 7px 13px; border: 1px solid #0077cc; border-radius: 999px; background: white; color: #0077cc; cursor: pointer; font: inherit; }
+        .abstract-toggle:hover { background: #eef7ff; }
+        .abstract { margin-top: 12px; padding: 13px 15px; border-left: 3px solid #0077cc; background: #f7fbff; color: #333; }
+        .abstract p { margin: 0; }
+        @media (max-width: 650px) {
+            .talk-meta { grid-template-columns: 1fr; }
+            .talk-meta div { grid-template-columns: 86px 1fr; }
+        }
+
+        footer { text-align: center; font-size: 0.9em; color: #777; margin-top: 50px; }
+        a { color: #0077cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<header>
+<h1>Mathematics Colloquiums</h1>
+<p>A throughout the year talk series</p>
+<p><strong> 2023 academic year onwards | Harish-Chandra Research Institute (HRI)</strong></p>
+</header>
+<br/>
+<section id="mathematics-colloquium"> <div class="talk-list">
+<article class="talk-card">
+<div class="talk-month">May 2026</div>
+<div class="talk-topic">Topic: <em>Geometric Analysis</em></div>
+<h3>Integral Geometry and Its Applications to Inverse Problems</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Suman Kumar Sahoo, <em>IIT Bombay, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs9')" type="button">Abstract</button>
+<div class="abstract" id="talkabs9" style="display:none;"><p>In this talk, we discuss several geometric aspects of the Ray transform and the Radon transform, which play a fundamental role in integral geometry and have important applications in areas such as medical imaging, geophysics, and other branches of science. We will then explain how these transforms arise naturally in the study of inverse problems for partial differential equations and demonstrate how they can be used to recover unknown coefficients or structures from indirect measurements.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">May 2026</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>Galois modules and zeta and L-functions in graph theory</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Daniel Hubert Nocolas VALTIERES, <em>California State University, LA</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs1')" type="button">Abstract</button>
+<div class="abstract" id="talkabs1" style="display:none;"><p>The special value at s=0 of Dedekind and Artin L-functions is central to the study of Galois module structures in classical algebraic number theory. One can study the special value at u=1 of the Ihara zeta function in graph theory from a similar perspective. In this talk, I will describe a circle of recent results in graph theory that can be viewed as analogues of classical phenomena in algebraic number theory, including results in the spirit of Brumer’s conjecture, the Herbrand–Ribet theorem, and Iwasawa’s asymptotic class number formula. The emphasis will be on the underlying parallels and the emerging dictionary between the two settings.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2026</div>
+<div class="talk-topic">Topic: <em>Geometric Analysis</em></div>
+<h3>Averages over balls, surfaces, and curves</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Abhishek Ghosh, <em>IIT Madras, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs4')" type="button">Abstract</button>
+<div class="abstract" id="talkabs4" style="display:none;"><p>In this talk we shall discuss averaging operators over lower-dimensional manifolds. We will explore their boundedness and regularity properties. Finally, we will discuss some bilinear analogues.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2026</div>
+<div class="talk-topic">Topic: <em>Algebraic Number Theory</em></div>
+<h3>Generating Matrix Groups — Boundedness Aspect</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor B. Sury, <em>Visiting Professor, ICTS-TIFR, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs3')" type="button">Abstract</button>
+<div class="abstract" id="talkabs3" style="display:none;"><p>We discuss bounded factorizations of matrix groups with entries in a wide variety of rings. Results are often intimately related to deeper properties such as the congruence subgroup property, Kazhdan’s property T, rigidity of representations, etc. We also briefly mention growth zeta functions that arise naturally, whose analytic content encodes group theoretic information.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2026</div>
+<div class="talk-topic">Topic: <em>Probability &amp; Stochastic Processes</em></div>
+<h3>Stochastic PDEs Involving a Bilaplacian Operator</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Barun Sarkar, <em>IIT Madras, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs2')" type="button">Abstract</button>
+<div class="abstract" id="talkabs2" style="display:none;"><p>In this talk, we will discuss the existence and uniqueness problem for linear stochastic PDEs involving a bilaplacian operator. Our results on the existence and uniqueness are obtained through an application of a monotonicity inequality. As an application of these results, we also obtain a probabilistic representation of the solution for a linear PDE involving the bilaplacian operator.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2026</div>
+<div class="talk-topic">Topic: <em>Functional Analysis</em></div>
+<h3>Subnormality of Brownian-type operators</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Sameer Chavan, <em>IIT Kanpur, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs6')" type="button">Abstract</button>
+<div class="abstract" id="talkabs6" style="display:none;"><p>In this talk, we discuss operators that are represented by upper triangular 2 × 2 block matrices whose entries satisfy some algebraic constraints. We call them Brownian-type operators. These operators emerged from the study of Brownian isometries studied by Agler and Stankus via detailed analysis of the time shift operator of the modified Brownian motion process. We address the issue of subnormality of Brownian-type operators and relate it to a spectral inclusion of a pair of commuting normal operators. This talk is based on a joint work with Z. J. Jablonski, I. B. Jung and J. Stochel.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2026</div>
+<div class="talk-topic">Topic: <em>Group Theory</em></div>
+<h3>An invariant for free-by-cyclic groups</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Radhika Gupta, <em>TIFR Mumbai, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs5')" type="button">Abstract</button>
+<div class="abstract" id="talkabs5" style="display:none;"><p>A free-by-cyclic group is a semi-direct product of a free group with the group of integers. Alternatively, a free-by-cyclic group can be viewed as the mapping torus of a free group automorphism. In this talk, we will see that such a group can in fact fiber in multiple ways. We will then consider the properties of different monodromies that are invariants of the group. This is joint work with Spencer Dowdall, Yassine Guerch, Jean Pierre Mutanguha and Caglar Uyanik.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">February 2026</div>
+<div class="talk-topic">Topic: <em>Algebraic Number Theory</em></div>
+<h3>Deficiency in p-class tower groups</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Supriya Pisolkar, <em>IISER Pune, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs11')" type="button">Abstract</button>
+<div class="abstract" id="talkabs11" style="display:none;"><p>Let p be a prime number. For a number field K, let Kφ denote the maximal unramified p-extension of K, with Galois group Gφ. We define the deficiency of a finitely generated pro-p group G by Def(G) := r(G) − d(G), where d(G) is the minimal number of generators of G and r(G) is the minimal number of relations. While d(G) can be computed easily, there is no known algorithm to compute r(G) in general. Shafarevich, and independently Koch, showed that 0 ≤ Def(Gφ) ≤ ν, where ν denotes the number of units. Hajir, Maire, and Ramakrishna obtained improved bounds for Def(Gφ) and developed new techniques that may help in computing r(Gφ). In ongoing work, we aim to implement their methods to compute r(Gφ) in order to better understand the structure of Gφ, especially for families of biquadratic number fields and odd primes p, which may come close to producing a counterexample to the Fontaine–Mazur conjecture.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">February 2026</div>
+<div class="talk-topic">Topic: <em>Algebra</em></div>
+<h3>A^1 connected components of groups</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Amit Hogadi, <em>IISER Pune, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs10')" type="button">Abstract</button>
+<div class="abstract" id="talkabs10" style="display:none;"><p>The aim of the talk is to give an overview of A^1 homotopy theory and its potential applications to classical problems of algebraic groups, e.g. the norm principle as formulated by Merkurjev. The talk is based on a recent joint work with Anand Sawant.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">February 2026</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>On derived deformations of Galois representations</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Eric Jean Paul Urban, <em>Columbia University, USA</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs8')" type="button">Abstract</button>
+<div class="abstract" id="talkabs8" style="display:none;"><p>The purpose of this talk is to give an overview of some applications of the theory of derived deformations of Galois representations. In particular, I will describe two results obtained jointly with Jacques Tilouine. One in Iwasawa theory extending results of Hida on the trivial zeros of algebraic p-adic L-function, and the other one on the generalized Leopoldt conjecture.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">February 2026</div>
+<div class="talk-topic">Topic: <em>Complex Analysis</em></div>
+<h3>Hénon maps and beyond</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Ratna Pal, <em>ISI Bangalore, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs7')" type="button">Abstract</button>
+<div class="abstract" id="talkabs7" style="display:none;"><p>The broad research area of my talk lies in holomorphic dynamics. The main focus of the talk will be to explore various rigidity properties of Hénon maps which are of fundamental importance in multivariable holomorphic dynamics. Loosely speaking, by rigidity properties, we mean those properties of Hénon maps which determine the underlying Hénon maps almost uniquely.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">November 2025</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>Non-vanishing of Poincare series</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor V. Kumar Murty, <em>University of Toronto, Canada</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_more_2025_3')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_more_2025_3" style="display:none;"><p>The famous conjecture that asserts the non-vanishing of the Ramanujan tau function can be generalized in terms of Poincare series. In joint work with M. Manickam, we develop a new method to study Poincare series, and use it to significantly extend previously known results on their non-vanishing. The talk will be accessible to a wide audience.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">November 2025</div>
+<div class="talk-topic">Topic: <em>Analysis &amp; PDEs</em></div>
+<h3>Regularity phenomena in mixed local and nonlocal equations and applications</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Prashanta Garain, <em>IISER Berhampur, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_more_2025_2')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_more_2025_2" style="display:none;"><p>We investigate a class of quasilinear elliptic equations that combine both local and nonlocal operators. Our aim is to understand the regularity behavior of their solutions, including local boundedness, Harnack-type inequalities, and other qualitative properties. These results highlight how the interaction between the local and nonlocal components shapes the overall solution behavior. We also discuss how these regularity findings can be applied to singular mixed local–nonlocal problems.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">November 2025</div>
+<div class="talk-topic">Topic: <em>Algebraic Geometry</em></div>
+<h3>Space vectors forming rational angles</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Kiran Sridhara Kedlaya, <em>University of California, San Diego, USA</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_more_2025_1')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_more_2025_1" style="display:none;"><p>We classify all possible configurations of vectors in three-dimensional space with the property that any two of the vectors form an angle whose measure is a rational multiple of pi. As a corollary, we find all tetrahedra whose six dihedral angles are all rational multiples of pi. While these questions, and their answers, are of an elementary nature, their resolution will take us on a tour through cyclotomic number fields, computational algebraic geometry, and an amazing fact about the geometry of tetrahedra discovered by physicists in the 1960s. Joint work with Sasha Kolpakov, Bjorn Poonen, and Michael Rubinstein.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2025</div>
+<div class="talk-topic">Topic: <em>Algebra</em></div>
+<h3>Local fields and their finite extensions</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. C S Dalawat, <em>Ashoka University, Sonipat, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_3')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_3" style="display:none;"><p>We know that the field R of real numbers is a completion of the field Q of rational numbers. About a hundred years ago, it was discovered by Hensel that there are other completions of Q. In fact, there is a completion Q_p for each prime p, and there are no others. Collectively, fields such as R, Q_p, and their finite extensions are called local fields of characteristic 0. The local field R has only two finite extensions and C has only one, but every other local field has infinitely many finite extensions. Can we parametrise all finite extensions of other local fields? This question will be the main topic of the colloquium. We will show how to parametrise, for a given local field K, all extensions of prime degree and, more generally, all primitive extensions of K. The notions of primitivity and ramification will be defined.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2025</div>
+<div class="talk-topic">Topic: <em>Probability &amp; Stochastic</em></div>
+<h3>Well-posedness of a stochastic nonlinear heat equation with constraints of finite codimension</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Manil T Mohan, <em>IIT Roorkee, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_2')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_2" style="display:none;"><p>In this talk, we examine a stochastic nonlinear heat equation in any dimension d ≥ 1 driven by a Gaussian noise in the Stratonovich form along with a constraint on the L^2-norm of the solution. We show the existence of an H^1∩L^p-valued martingale solution. Moreover, we prove that this solution is invariant in a Hilbertian manifold, in particular unit sphere, i.e., if the initial data is in M, then all its corresponding trajectories stay in M. Finally, the pathwise uniqueness of the solution concludes the existence of a strong solution via a Yamada-Watanabe type result. This is a joint work with Ashish Bawalia and Zdzislaw Brzezniak.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2025</div>
+<div class="talk-topic">Topic: <em>Topology</em></div>
+<h3>Exotic Smooth Structures on Complex Projective Spaces and the Search for Almost Complex Candidates for Yau’s Problem</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Ramesh Kasilingam, <em>IIT Madras, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_1')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_1" style="display:none;"><p>One of the intriguing conjectures in differential geometry, posed by S.-T. Yau as Problem 52 in his 1993 list of open problems, asserts that every closed almost complex manifold of real dimension at least 6 should admit a complex structure. While this is known to fail in dimension four, the high-dimensional case remains completely open. In this talk, I will begin by discussing exotic smooth structures on complex projective spaces CP^n—manifolds that are homeomorphic but not diffeomorphic to the standard CP^n for n ≤ 9. I will describe examples such as distinct smooth structures on CP^9, where one admits a metric of nonnegative scalar curvature and another does not. I will then turn to the existence of almost complex structures on these exotic complex projective spaces, aiming to identify promising candidates for testing Yau’s conjecture.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2025</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>Periods of modular forms</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Jacques Tilouine, <em>University of Paris, France</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_more_2025_4')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_more_2025_4" style="display:none;"><p>Periods are numbers comparing different rational or integral modules which are isomorphic over C. Modular forms, and more generally automorphic forms, give rise to two types of integral structures and hence give rise to periods. On the other hand, there is a notion of Langlands transfer F of a form f from a group to another group. The question arises to compare, first rationally and then integrally, the periods of f and F. We will explain some results in this direction.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">September 2025</div>
+<div class="talk-topic">Topic: <em>Differential Geometry</em></div>
+<h3>Hypersurfaces with constant isotropic curvature</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Gururaja H.A., <em>IISER Tirupati, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_4')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_4" style="display:none;"><p>After a brief overview of hypersurface geometry, I will describe a classification for complete hypersurfaces with constant isotropic curvature in Riemannian space forms. This is a joint work with Niteesh Kumar.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2025</div>
+<div class="talk-topic">Topic: <em>Differential Geometry</em></div>
+<h3>Volume growth functions of complete Riemannian manifolds with positive scalar curvature</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Soma Maity, <em>IISER Mohali, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_6')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_6" style="display:none;"><p>Let M be an open manifold of dimension at least 3 that admits a complete metric of positive scalar curvature. For a function v with bounded growth of derivative, whether M admits a metric of positive scalar curvature with volume growth of the same growth type as v is unknown. We answer this question positively in the case of manifolds which are infinite connected sums of closed manifolds that admit metrics of positive scalar curvature. To define a metric of positive scalar curvature with a certain volume growth type on M, we use the Gromov-Lawson construction of metrics with positive scalar curvature on connected sums and Grimaldi-Pansu's construction of metrics of bounded geometry of certain volume growth type on open manifolds. We generalise this result to manifolds which are infinite connected sums of similar closed manifolds along lower-dimensional spheres. This is a joint work with Anushree Das.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2025</div>
+<div class="talk-topic">Topic: <em>Analysis &amp; PDEs</em></div>
+<h3>Inverse boundary value problems for evolutionary partial differential equations</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Manmohan Vashisth, <em>IIT Ropar, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_5')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_5" style="display:none;"><p>In this talk, we will discuss inverse problems related to linear and nonlinear partial differential equations of parabolic and hyperbolic type. Our focus will be on unique determination of coefficients of these PDEs, using the information gathered from full or partial boundary measurements of solution.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2025</div>
+<div class="talk-topic">Topic: <em>Differential Geometry</em></div>
+<h3>Curvature – concept, and its overtones</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor C.S. Aravinda, <em>TIFR Bangalore, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs15')" type="button">Abstract</button>
+<div class="abstract" id="talkabs15" style="display:none;"><p>This talk will be on introductory topics in differential geometry.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">July 2025</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>From Modular curves to Shimura varieties, and their role in number theory</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Dipendra Prasad, <em>IIT Bombay, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_8')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_8" style="display:none;"><p>Modular curves have traditionally played a very important role, especially in the study of elliptic curves over integers, and eventually to the solution of Fermat's last theorem. Modular curves are the first examples of certain interesting algebraic curves, named after Shimura, and called Shimura curves. Their higher dimensional generalisation is at the center of the Langlands program.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">July 2025</div>
+<div class="talk-topic">Topic: <em>Geometric Group Theory</em></div>
+<h3>Reciprocity in Hecke groups</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Krishnendu Gongopadhyay, <em>IISER Mohali, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_7')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_7" style="display:none;"><p>Reversibility is a classical concept in group theory and dynamical systems, referring to the property of an element being conjugate to its inverse. This notion arises naturally in various mathematical and physical contexts, from time-reversibility of dynamical flows to symmetries in algebraic structures. In this talk, I will begin with a gentle and accessible introduction to the idea of reversibility in groups and survey recent works. I will then focus on the case of Hecke groups, which are a family of Fuchsian groups that generalize the modular group and have rich connections to hyperbolic geometry, number theory, and automorphic forms. Despite their relatively simple definitions, Hecke groups exhibit intricate algebraic and geometric behavior. I will discuss recent results concerning reversible elements in these groups, including classification questions and asymptotic properties. Some of this work is part of ongoing efforts, jointly with Debattam Das, to understand reversibility in Hecke groups.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">June 2025</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>Euler’s Zeta values</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Haruzo Hida, <em>University of California, L.A.</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_9')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_9" style="display:none;"><p>We describe how Euler added up all positive integers into a mysterious fraction when he was 28 years old, and I try to legitimize his method p-adically. This is a story of number theory from the 17th century on. We only need some knowledge of polynomials and fractions of polynomials and very basics of differentiation. If time allows, I enter into some results related to Ramanujan I found when I was 28 years old. For the results exposed here, a detailed proof can be found in my book: Elementary Theory of L-functions and Eisenstein Series, LMSST vol. 26, 1993, Cambridge U. Press.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">May 2025</div>
+<div class="talk-topic">Topic: <em>Algebraic Topology</em></div>
+<h3>Lifting of closed curves to finite covers of free groups</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Arpan Kabiraj, <em>IIT Palakkad, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_10')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_10" style="display:none;"><p>In this talk, we will discuss some necessary and sufficient conditions under which a closed curve on a bouquet of n circles can be lifted to a class of finite-sheeted normal coverings. We will also discuss some applications of these results to finite index normal subgroups of free groups. This is a joint work with Deblina Das.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2025</div>
+<div class="talk-topic">Topic: <em>Topology &amp; Geometry</em></div>
+<h3>Distinguishing knots and links in the 3-sphere using topological and geometric tools</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Subhankar Dey, <em>IIT Palakkad, Kerala, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_11')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_11" style="display:none;"><p>Characterizing embedded circles has been a longstanding topic of interest in low-dimensional topology, with deep connections to various areas of mathematics. In this talk, we will provide a concise overview of widely used invariants employed to address this problem, highlighting their limitations and how these limitations have driven the search for more refined invariants—one such example being Heegaard Floer homology. The presentation will be largely self-contained.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2025</div>
+<div class="talk-topic">Topic: <em>General Lecture</em></div>
+<h3>The Unreasonable Ubiquity of Math (quoting Wigner)</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Sujatha Ramdorai, <em>University of British Columbia, Canada</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs_extra_12')" type="button">Abstract</button>
+<div class="abstract" id="talkabs_extra_12" style="display:none;"><p>The Hungarian-American Nobel Prize winning physicist Eugene Wigner (1902–1995) was right on target when he observed the surprising and often inexplicable fact that mathematical concepts, developed to describe one set of observations, can be remarkably effective in describing another, seemingly unrelated phenomena. In this talk, we shall explore how this continues to be true as different new areas emerge in different sciences.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2024</div>
+<div class="talk-topic">Topic: <em>General Lecture</em></div>
+<h3>Harish-Chandra and the city of confluence</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor C.S. Aravinda, <em>TIFR Bangalore, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs15')" type="button">Abstract</button>
+<div class="abstract" id="talkabs15" style="display:none;"><p>This talk will largely touch upon Harish-Chandra's life around his student days at the University of Allahabad.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">October 2024</div>
+<div class="talk-topic">Topic: <em>Differential Geometry</em></div>
+<h3>The problem of geodesic conjugacies</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor C.S. Aravinda, <em>TIFR Bangalore, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs15')" type="button">Abstract</button>
+<div class="abstract" id="talkabs15" style="display:none;"><p>The question of whether a time-preserving geodesic conjugacy determines a closed, negatively curved Riemannian manifold up to an isometry is one of the central problems in Riemannian geometry. While an answer to the question in this generality has yet remained elusive, this talk will briefly give an overview and discusses certain known results.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2024</div>
+<div class="talk-topic">Topic: <em>Harmonic Analysis</em></div>
+<h3>Bargmann and Fock meet Hardy: An uncertainty principle for operators</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Professor Sundaram Thangavelu, <em>IISc Bangalore, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs15')" type="button">Abstract</button>
+<div class="abstract" id="talkabs15" style="display:none;"><p>Heisenberg’s uncertainty principle has several manifestations in Fourier analysis, including Hardy’s theorem. This talk discusses an operator-theoretic version connected with the boundedness of certain convolution-type operators on the Fock space, where Bargmann, Schrödinger, Fock, and Hermite all play a role.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2024</div>
+<div class="talk-topic">Topic: <em>Differential Geometry</em></div>
+<h3>Spectra of negatively curved Riemannian manifolds</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Mayukh Mukherjee, <em>IIT Bombay, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs14')" type="button">Abstract</button>
+<div class="abstract" id="talkabs14" style="display:none;"><p>We discuss issues surrounding the spectra of complete Riemannian manifolds, and sometimes orbifolds, of non-positive curvature. Topics include absolute and singularly continuous spectra, small eigenvalues, and eigenfunction decay. This describes previous and ongoing joint work with Ballmann and Polymerakis.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2024</div>
+<div class="talk-topic">Topic: <em>Fluid Dynamics</em></div>
+<h3>Turbulent flow dynamics in the world's oceans</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Jim Thomas, <em>ICTS-TIFR, Bengaluru, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs13')" type="button">Abstract</button>
+<div class="abstract" id="talkabs13" style="display:none;"><p>Atmospheric winds and gravitational tides force the world's oceans, exciting fast-evolving dispersive waves and slowly evolving vorticity-rich eddies. This talk gives an overview of turbulent oceanic flow structures and mathematical models, including deterministic, stochastic, and machine-learning models, for resolving turbulent energy transfers across spatio-temporal scales.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">April 2024</div>
+<div class="talk-topic">Topic: <em>Algebraic Number Theory</em></div>
+<h3>Lambda-adic forms</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Eknath Ghate, <em>TIFR Mumbai</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs12')" type="button">Abstract</button>
+<div class="abstract" id="talkabs12" style="display:none;"><p>Modular forms are holomorphic functions on the upper-half complex plane with many symmetries. These objects have applications to number theory. Hida’s idea combined modular forms with Iwasawa-theoretic variation, leading to p-adic families of modular forms, also known as Lambda-adic forms. These lectures introduce these forms and lead up to the construction of their Galois representations.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2024</div>
+<div class="talk-topic">Topic: <em>Harmonic Analysis &amp; PDEs</em></div>
+<h3>On point-wise convergence of the solution of the heat equation on the torus</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Divyang Bhimani, <em>IISER Pune, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs18')" type="button">Abstract</button>
+<div class="abstract" id="talkabs18" style="display:none;"><p>We characterise weighted Lebesgue spaces on the torus for which the solution of the heat equation converges pointwise to the initial data as time tends to zero. A similar question on the cylinder is also discussed. This is joint work with Rupak Dalai.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2024</div>
+<div class="talk-topic">Topic: <em>Harmonic Analysis &amp; Number Theory</em></div>
+<h3>Randomness, Rational Points, and Oscillatory Integral</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Niclas Technau, <em>Max Planck Institute for Mathematics in Bonn, Germany</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs17')" type="button">Abstract</button>
+<div class="abstract" id="talkabs17" style="display:none;"><p>The talk uses probabilistic ideas to predict how many rational points are located near a compact manifold. After a basic introduction, it discusses the role of oscillatory integrals and curvature in proving such predictions, based on joint work with Rajula Srivastava.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">March 2024</div>
+<div class="talk-topic">Topic: <em>Harmonic Analysis &amp; Number Theory</em></div>
+<h3>Counting Rational Points near Manifolds</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Rajula Srivastava, <em>University of Bonn, Germany</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs16')" type="button">Abstract</button>
+<div class="abstract" id="talkabs16" style="display:none;"><p>How many rational points with denominator of a given size lie near a compact non-degenerate manifold? This talk discusses recent progress using harmonic analysis, oscillatory integrals, and homogeneous dynamics, with applications to Hausdorff dimension and measure refinements for well-approximable points.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">January 2024</div>
+<div class="talk-topic">Topic: <em>Number Theory</em></div>
+<h3>On the local L2-bound of the Eisenstein series and application</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Subhajit Jana, <em>Queen Mary University of London</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs19')" type="button">Abstract</button>
+<div class="abstract" id="talkabs19" style="display:none;"><p>The talk concerns local L2 bounds of Eisenstein series on general reductive groups. It discusses Maass–Selberg relations, the Finis–Lapid–Müller fine spectral expansion of the Arthur–Selberg trace formula, and applications to Sarnak’s Optimal Lifting Conjecture after Assing–Blomer.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">September 2023</div>
+<div class="talk-topic">Topic: <em>Geometric Group Theory</em></div>
+<h3>Tilings of Spaces</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Sourav Ghosh, <em>Ashoka University, Sonepat, Haryana, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs22')" type="button">Abstract</button>
+<div class="abstract" id="talkabs22" style="display:none;"><p>Human fascination for symmetries in crystals and honeycombs gave rise to the study of tilings. This talk discusses the mathematical theory behind tilings of spaces and some recent results about affine tilings.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">September 2023</div>
+<div class="talk-topic">Topic: <em>Algebraic Geometry</em></div>
+<h3>The Minimal Model Program (MMP) and Birational Classification of Varieties</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Omprokash Das, <em>TIFR Mumbai, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs21')" type="button">Abstract</button>
+<div class="abstract" id="talkabs21" style="display:none;"><p>The talk explains birational equivalence of algebraic varieties and the aim of the Minimal Model Program, or Mori Program: to find a good and minimal model in each birational equivalence class.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">September 2023</div>
+<div class="talk-topic">Topic: <em>Mathematical Physics</em></div>
+<h3>Convergence to equilibrium in degenerate systems</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Harsha Hutridurga, <em>Indian Institute of Technology Bombay, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs20')" type="button">Abstract</button>
+<div class="abstract" id="talkabs20" style="display:none;"><p>The talk addresses the large-time behaviour of solutions to a reaction-diffusion system with diffusion degeneracies and mass-action kinetics. It explains an indirect diffusion effect and uses the entropy method to derive explicit convergence rates. This is joint work with Saumyajit Das.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2023</div>
+<div class="talk-topic">Topic: <em>Probability &amp; Stochastics</em></div>
+<h3>Stochastic Flows and Associated Stochastic PDEs</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Suprio Bhar, <em>IIT Kanpur, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs27')" type="button">Abstract</button>
+<div class="abstract" id="talkabs27" style="display:none;"><p>The study of stochastic differential equations provides a framework for stochastic flows. The talk begins with Brownian motion and SDEs, then explores Gaussian flows arising from SDEs and the existence and uniqueness of associated stochastic PDEs, with further extensions to Lévy flows.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2023</div>
+<div class="talk-topic">Topic: <em>Algebraic Geometry</em></div>
+<h3>Beyond Abel and Jacobi</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Prof. Kapil Hari Paranjape, <em>IISER Mohali, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs26')" type="button">Abstract</button>
+<div class="abstract" id="talkabs26" style="display:none;"><p>The classical theorem of Abel and Jacobi characterises zeroes and poles of meromorphic functions using the Abel–Jacobi homomorphism. This talk discusses refinements in higher dimensions, motives, and conjectural refinements due to Bloch and Beilinson.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2023</div>
+<div class="talk-topic">Topic: <em>Analytic Number Theory</em></div>
+<h3>Uniform sup-norm bound of Siegel cusp forms</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Antareep Mandal, <em>IIT Madras, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs25')" type="button">Abstract</button>
+<div class="abstract" id="talkabs25" style="display:none;"><p>Sup-norm bounds of eigenfunctions are a classical problem in spectral theory with connections to number theory. The talk generalizes a technique for uniform sup-norm bounds of cusp forms to Siegel upper half-space via the weighted Siegel–Maass Laplacian and the corresponding heat kernel.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2023</div>
+<div class="talk-topic">Topic: <em>Analysis &amp; PDEs</em></div>
+<h3>A large class of nonlocal elliptic equations with singular nonlinearities</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Rakesh Arora, <em>IIT, Varanasi, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs24')" type="button">Abstract</button>
+<div class="abstract" id="talkabs24" style="display:none;"><p>The talk addresses existence, uniqueness, and boundary behaviour of positive weak-dual solutions for nonlocal elliptic equations with singular nonlinearities. The operators include several fractional Laplacians, and the nonlinearities include purely singular terms, source terms, and absorption terms.</p></div>
+</article><article class="talk-card">
+<div class="talk-month">August 2023</div>
+<div class="talk-topic">Topic: <em>Ergodic Theory</em></div>
+<h3>Random walks on tori and normal numbers in self-similar sets</h3>
+<dl class="talk-meta">
+<div><dt>Speaker</dt><dd>Dr. Arijit Ganguly, <em>IIT Kanpur, India</em></dd></div>
+</dl>
+<button class="abstract-toggle" onclick="toggle('talkabs23')" type="button">Abstract</button>
+<div class="abstract" id="talkabs23" style="display:none;"><p>We study random walks on a d-dimensional torus by affine expanding maps. Under an irrationality condition on translation parts, Haar measure is the unique stationary measure, implying uniform distribution of almost every orbit in certain self-similar sets. This is joint work with Yiftach Dayan and Barak Weiss.</p></div>
+</article></div>
+</section>
+<section id="registration">
+<h2>Coordinators</h2>
+<p>Dr. Aprameyo Pal (aprameyopal@hri.res.in) and Dr. Tuhin Ghosh (tuhinghosh@hri.res.in)</p>
+</section>
+<footer>
+<p>  <a href="https://www.hri.res.in/">HRI</a> </p>  
+</footer>
+</body>
+</html>
