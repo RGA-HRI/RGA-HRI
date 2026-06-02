@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math-Physics Sangam Series
+</title>
+    <script>
+function toggle(id){
+if (document.getElementById){
+hide = document.getElementById(id);
+if (hide.style.display == "none"){
+hide.style.display = "";
+} else {
+hide.style.display = "none";
+}
+}
+}
+</script>
+    <style>
+        /* Minimalist CSS */
+        body {                
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        h1 { font-weight: 300; font-size: 2.5em; margin-bottom: 0; }
+        h2 { font-weight: 300; color: #555; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        section { margin-bottom: 40px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .image-placeholder {
+            background-color: #f4f4f4;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            border: 1px solid #ddd;
+        }
+        .image-placeholder img { width: auto; height: auto; }
+        footer { text-align: center; font-size: 0.9em; color: #777; margin-top: 50px; }
+        a { color: #0077cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Math-Physics Sangam Series</h1>
+        <p></p>
+        <p><strong>2025 academic year onwards | <a href="www.hri.res.in">Harish-Chandra Research Institute (HRI)</a></strong></p>
+    </header>
+
+
+ <div class="image-placeholder">
+        <img src="G.jpg" alt="Photo">
+        </div>
+    <br>
+    
+    <section id="about">
+        <h2>About</h2>
+        <p>The Math-Physics Sangam is a twice-a-month seminar series at HRI intended to celebrate the influence the two fields have had on
+            each other as well as foster discussions and collaborations. The talks are aimed at a broad audience with an emphasis
+            on exposition. 
+</p>
+    </section>
+
+    <section id="speakers">
+        <h2>Speakers</h2>
+        <ul>
+            <li> Amrita Ghosh (Maths) <br> -- <em>May 2026</em>
+                 <i>Title: A brief overview of thin film model of viscous fluid </i><br>
+                <a onClick='toggle("cache1");'>Abstract</a> 
+   <div id='cache1' style="display: none">
+                 After brief introduction to the general differential equation governing fluid
+dynamics, I would like to discuss different systems modelling the so called ”thin film” of
+fluid; For example, a model arising from sinking of a rigid solid into a thin film of fluid,
+surrounded by air will be discussed. This leads to movement of the contact point, that is
+where the air, liquid and solid meet. This free boundary problem, together with the no
+slip (Dirichlet) condition at the fluid-solid interface, gives rise to a fourth order quasilinear
+parabolic equation. An interesting observation shows that this particular thin film equation
+is well-posed and also the contact point can possibly move, contrary to the classical thin
+film equation for a droplet arising from no-slip condition.
+</div>
+</li>
+            <li> Umesh Dubey (Maths) -- <em>April, 2026</em> <br>
+                 <i>Title: The Evolution of Stability: Bridging Geometry and String Theory </i><br>
+                <a onClick='toggle("cache2");'>Abstract</a> 
+   <div id='cache2' style="display: none">
+                 Originally developed by Mumford and Seshadri to study the geometry of moduli spaces, the notion of μ-stability later found applications in physics. Following Douglas's introduction of Π-stability in string theory, Bridgeland developed a theory of stability conditions for an abstract triangulated category. This talk surveys the transition from classical vector bundle stability to the modern categorical approach.  We will examine how these concepts interact within the derived category of coherent sheaves and illustrate the core principles using the accessible case of quiver representations.
+</div>
+</li>
+            <li> Abhishodh Prakash (Physics) -- <em>April, 2026</em> <br>
+                 <i>Title: Categorically what?: the rise of abstract nonsense in theoretical
+physics </i><br>
+                <a onClick='toggle("cache3");'>Abstract</a> 
+   <div id='cache3' style="display: none">
+                I will summarize the use of higher categories in contemporary
+theoretical physics. I will focus two prominent areas: (1) the
+classification of particles in two spatial dimensions and (2)
+description of new symmetries in quantum field theories. Both these
+subjects have been studied for decades but using different tools, mostly
+groups and their representations. I will comment on why the situation
+changed over the last couple decades necessitating new and powerful
+tools. I will try to motivate everything using pictures.
+</div>
+</li>
+            <li> Surya Ramana (Maths) -- <em>March, 2026</em> <br>
+                 <i>Title: Existence of Temperature and Entropy in Classical Thermodynamics</i><br>
+                <a onClick='toggle("cache4");'>Abstract</a> 
+   <div id='cache4' style="display: none">
+                This is a pedagogical talk aimed at showing the existence of thermodynamic temperature and entropy in clasical thermodynamics from a mathematical point of view.
+</div>
+</li>
+            <li> Rajeev Bhaskaran (Maths) -- <em>February, 2026</em> <br>
+                 <i>Title:  A diffusion model for chemical reactions</i><br>
+                <a onClick='toggle("cache5");'>Abstract</a> 
+   <div id='cache5' style="display: none">
+                 In this talk we introduce a diffusion model for chemical reactions. Our
+goal is to calculate the ‘reaction rate’ and find an expression for the activation
+energy in terms of the ‘barrier height’ given by the potential function. We use
+methods of stochastic calculus to do the calculations. Specifically, we will introduce
+the concepts of an excursion of the diffusion from a point (in the state space) and
+the corresponding notion of a local time at a point ; we calculate the reaction rate
+in terms of the ‘excursion measure’ which in turn we express in terms of the barrier
+height. This is joint work with Vijay Ganesh.
+</div>
+</li>
+            <li> Swapnil Deshpande (Physics) -- <em>February, 2026</em> <br>
+                 <i>Title: Linking Mathematical Crystallography to Tangible Physical Phenomena in Materials Science</i><br>
+                <a onClick='toggle("cache6");'>Abstract</a> 
+   <div id='cache6' style="display: none">
+                Tessellations, widely known as tilings hold a enduring appeal. They beautifully illustrate how mathematics can bridge aesthetics, nature, and logical structure. From the imaginative artworks to periodic patterns in crystal growth and the theory of Penrose tilings, tessellations captivate both casual enthusiasts and professional researchers across disciplines. I will try to emphasize audience to retain one idea that how ab initio quantum-mechanical modeling is capable of addressing an extremely large range of problems in a wide range of scientific disciplines.
+
+</div>
+</li>
+                        <li> Manoj Yadav (Maths) -- <em>December, 2025</em> <br>
+                 <i>Title:  Another instance of mathematics intertwining with physics</i><br>
+                <a onClick='toggle("cache7");'>Abstract</a> 
+   <div id='cache7' style="display: none">
+                 It is planned to discuss an instance of a well known physical entity called the Quantum Yang-Baxter Equation (QYBE) giving rise to a non-commutative ring like mathematical structure called a brace. On the other hand, braces, each one of them born from an appropriate group of symmetries of some abelian group, give rise to certain solutions of the QYBE. I'll explain this connection and provide several examples. Basic group theory will be used.
+</div>
+</li>
+                      <li> Debraj Rakshit (Physics) -- <em>November, 2025</em> <br>
+                 <i>Title:  Reservoir engineering of long-range entangled pairs via localized dephasing</i><br>
+                <a onClick='toggle("cache8");'>Abstract</a> 
+   <div id='cache8' style="display: none">
+                 Decoherence is typically detrimental, but with careful engineering it can act in favour.
+We show that a single dissipation channel and strong symmetries isolate a set of bright modes
+in a one-dimensional fermionic lattice that evolve under a contractive Markov semigroup towards
+a unique dynamical fixed point acting as a global attractor. This fixed point is an equal mixture of
+bright modes whose delocalized structure produces symmetrically-located long-range entangled
+pairs in the lattice. We analyze uniqueness, global convergence and stability of the resulting steady
+state.
+</div>
+</li>
+             <li> Shripad Garge (Maths) -- <em>November, 2025</em> <br>
+                 <i>Title:  Chevalley groups and their twisted cousins</i><br>
+                <a onClick='toggle("cache9");'>Abstract</a> 
+   <div id='cache9' style="display: none">
+                We will trace a very brief history of Lie groups and linear algebraic groups before going on to discuss Chevalley groups and twisted
+Chevalley groups. I will make efforts to make the talk accessible to anyone with an understanding of groups.
+</div>
+</li>
+            <li> Anirban Basu (Physics)  -- <em>October, 2025</em> <br>
+                 <i>Title:  Worldsheet and Spacetime in String Theory: A Tale of Two Cities </i><br>
+                <a onClick='toggle("cache10");'>Abstract</a> 
+   <div id='cache10' style="display: none">
+                String theory ties together phenomena on the worldsheet and in spacetime, leading to rich and remarkable consequences. "It is the best of times, ... it is the age of wisdom, ... it is the epoch of incredulity ..." Dickens probably would have said. We shall heuristically discuss why he might be right.
+</div>
+</li>
+            <li> Bhamidi Sreedhar (Maths)  -- <em>October, 2025</em> <br>
+                 <i>Title:  Homological Mirror Symmetry Conjecture </i><br>
+                <a onClick='toggle("cache11");'>Abstract</a> 
+   <div id='cache11' style="display: none">
+                Mirror symmetry is the remarkable idea that two seemingly different geometric spaces can, in fact, describe the same physical or mathematical world. Originally, it proposed a correspondence between various invariants of a pair of Calabi–Yau manifolds known as mirror pairs. Emerging from string theory, this idea has profoundly influenced modern algebraic geometry, especially through developments in enumerative geometry. In this talk, we will trace the origins of mirror symmetry and discuss its categorical formulation due to Kontsevich, known as the Homological Mirror Symmetry conjecture.
+</div>
+</li>
+            <li> Sayan Choudhury (Physics)  -- <em>September, 2025</em> <br>
+                 <i>Title:  Quantum chaos and prime numbers: some interesting connections </i><br>
+                <a onClick='toggle("cache12");'>Abstract</a> 
+   <div id='cache12' style="display: none">
+                Quantum chaos is the study of quantum systems whose classical limit is chaotic. The study of these systems lead to important insights about the thermalization process of isolated quantum systems. Notably, quantum chaotic systems are characterized by Wigner-Dyson spectral statistics and this leads to some intriguing connections to the distribution of prime numbers and the Riemann Hypothesis.
+</div>
+</li>
+             <li> Rahul Poddar (Maths)  -- <em>September, 2025</em> <br>
+                 <i>Title:  Curvature, Kähler geometry, and Calabi-Yau spaces</i><br>
+                <a onClick='toggle("cache13");'>Abstract</a> 
+   <div id='cache13' style="display: none">
+                Curvature lies at the juncture of physics and geometry. For mathematicians, it encodes the way a space curves, while for physicists, Einstein's relativity reveals gravity itself as a manifestation of curvature. Within complex geometry, Kähler manifolds provide an elegant framework for the study of curvature. In this talk, we will trace how generalizations of Einstein manifolds, known as quasi-Einstein manifolds, within the Kähler setting, under the influence of a complex analogue of a conformal vector field, reduces to Calabi–Yau manifolds. These manifolds not only have deep geometric significance but also play a central role in string theory as candidates for the shape of hidden extra dimensions. Staying true to the spirit of exposition, our focus will be on geometric concepts and motivations, providing a path from curvature to Calabi-Yau spaces.
+</div>
+</li>
+            <li> Aprameyo Pal  (Maths)  -- <em>August, 2025</em> <br>
+                 <i>Title:  Between electric-magnetic duality and the Langlands program </i><br>
+                <a onClick='toggle("cache14");'>Abstract</a> 
+   <div id='cache14' style="display: none">
+                We will highlight recent joint work with David Ben-Zvi, Yiannis Sakellaridis, and Akshay Venkatesh [BSV] that applies ideas from quantum field theory to a central problem in number theory, the Langlands correspondence. In the relative Langlands program, L-functions of Galois representations are expressed as integrals of automorphic forms. The natural parameters for these integrals: spherical varieties for a reductive group G and the L-functions—representations of the Langlands dual group G^, do not line up. The approach in [BSV] interprets the relative Langlands program through the Kapustin–Witten realization of the (geometric) Langlands correspondence as electric–magnetic duality in 4-dimensional supersymmetric gauge theory, recasting it as a duality in the presence of boundary conditions. This reformulation embeds the known correspondences between periods and L-functions into a natural duality between Hamiltonian actions of dual groups.
+</div>
+</li>
+            <li> Ashoke Sen (Physics)  -- <em>August, 2025</em> <br>
+                 <i>Title:  Black holes and Siegel modular forms </i><br>
+                <a onClick='toggle("cache15");'>Abstract</a> 
+   <div id='cache15' style="display: none">
+                Siegel modular forms have made an unexpected appearance in the computation of black hole entropy in string theory. I shall explain this connection and also describe how black hole physics  in turn leads to conjectures about the positivity and vanishing properties of certain Fourier coefficients of the inverse of certain Siegel modular forms.
+</div>
+</li>
+            <li> Jayanta Kumar  Bhattacharjee (Physics)  -- <em>May, 2025</em> <br>
+                 <i>Title:  MISOTROPIC  HOMOGENEOUS  TURBULENCE : THE SIMPLEST  AND  YET RESISTANT </i><br>
+                <a onClick='toggle("cache16");'>Abstract</a> 
+   <div id='cache16' style="display: none">
+Fully developed turbulence, in spite of many impressive
+computational and
+experimental advances, remains a difficult terrain for the “standard” theorist.
+We will give an overview of where the theorist`s problem lies.                
+</div>
+</li>
+        <li> Dileep Jatkar (Physics)  -- <em>March, 2025</em> <br>
+                 <i>Title:  "Mirror Symmetry” </i><br>
+                <a onClick='toggle("cache17");'>Abstract</a> 
+   <div id='cache17' style="display: none">
+I will begin with some elementary examples which can be
+interpreted as precursors of the Mirror Symmetry.  This will be
+followed by string theory basics and illustrate how strings see
+geometry in a different way than point particles. I will then state
+the Mirror Conjecture. It will be shown that this is a trivial
+consequence of sign ambiguity in string theory. Some basics of 4D
+dimensional manifolds will be covered.  It will then be shown that the
+Mirror Symmetry is different from all known dualities in cohomology
+theory. I will then re-state the Mirror Conjecture.                
+</div>
+</li>   
+            <li> Tuhin Ghosh (Maths)  -- <em>March, 2025</em> <br>
+                 <i>Title:  Revisiting Symmetry through Calculus of Variation and PDEs </i><br>
+                <a onClick='toggle("cache18");'>Abstract</a> 
+   <div id='cache18' style="display: none">
+Beginning with mild propaganda about PDEs, the bulk of the
+discussion will centre around some isoperimetric staff and associated
+symmetry through the lens of Cal. vac. and PDEs.  We will revisit some
+of the symmetric figures shown in A. Prakash's first talk, and more;
+of course it comes with the usual promise to remain as lenient as
+possible.                
+</div>
+</li> 
+            <li> Abhishodh Prakash (Physics)  -- <em>February, 2025</em> <br>
+                 <i>Title:  How group theory classifies phases of matter and transitions between them </i><br>
+                <a onClick='toggle("cache19");'>Abstract</a> 
+   <div id='cache19' style="display: none">
+                
+</div>
+</li> 
+            
+        </ul>
+    </section>
+
+
+    <section id="registration">
+        <h2>Coordinators</h2>
+        <p>Dr. Aprameyo Pal (aprameyopal@hri.res.in) and Dr. Abhishodh Prakash (abhishodhprakash@hri.res.in)</p>
+    </section>
+
+    <!--<footer>
+        <p> <a href="https://hrimathematics.wixsite.com/women-in-maths-2025">IWMD 2025 at HRI</a>  | <a href="https://rga-hri.github.io/AT/wm.html">IWMD 2024 at HRI</a> </p>
+        <p> <a href="https://iwm.org.in/">Indian Women and Mathematics</a>   </p>
+    </footer>-->
+
+</body>
+</html>
