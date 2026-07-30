@@ -238,6 +238,34 @@ footer{
         gap:2px;
     }
 }
+
+/* Container to hide the line when it goes off-screen */
+    .line-container {
+      width: 100%;
+      overflow: hidden;
+      background-color: #f0f0f0;
+      padding: 20px 0;
+    }
+
+    /* The actual visual line */
+    .moving-line {
+      width: 150px;
+      height: 5px;
+      background-color: #3498db;
+      /* Triggers the 3-second 'slide' animation infinitely */
+      animation: slide 3s linear infinite; 
+    }
+
+    /* Direction and path of the movement */
+    @keyframes slide {
+      0% {
+        transform: translateX(-150px); /* Start hidden on the left */
+      }
+      100% {
+        transform: translateX(100vw); /* End hidden on the right */
+      }
+    }
+    
 </style>
 </head>
 <body>
@@ -247,6 +275,9 @@ footer{
 <p><strong> 2023 academic year onwards | Harish-Chandra Research Institute (HRI)</strong></p>
 </header>
 <section id="mathematics-colloquium"> <div class="talk-list">
+
+  <div class="line-container">
+    <div class="moving-line"></div>
 <button class="abstract-toggle" onclick="toggle('talkabs000')" type="button">Upcoming talks in August, 2026 onwards (click!)</button>
 <div class="abstract" id="talkabs000" style="display:none;">
 <div class="talk-topic">Topic: <em>Ergodic Theory</em></div>
@@ -264,6 +295,7 @@ footer{
 <div><dt>Speaker</dt><dd>Dr. Ujjal Das, <em>NISER Bhubaneswar, India</em></dd></div>
 </dl>
 <div class="talk-month">Tentative date: September, 2026</div>
+</div>
 </div>
 <p></p>
 <article class="talk-card">
